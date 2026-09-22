@@ -130,6 +130,7 @@
       "terms": "Terms of use",
       "cookies": "Cookie policy",
       "security": "Security",
+      "responsibleUse": "Responsible use",
       "licenses": "Licenses",
       "repository": "Repository",
       "issues": "Issues",
@@ -218,7 +219,8 @@
     "pageNotFound": "Page not found",
     "pageNotFoundBody": "The page you are looking for does not exist or has moved.",
     "skip": "Skip to main content",
-    "allLocales": "All languages"
+    "allLocales": "All languages",
+    "responsibleUseNote": "Capabilities labelled lab-validated refer to prototype evidence produced in a lab environment (source: product i18n/observatory, 2026-06) — not production guarantees. Capabilities labelled roadmap are planned and not yet available. Remediating changes are proposed by agents and require human approval before anything is applied. Do not deploy Sibernetick agents against systems you are not authorised to operate on, and do not use published guidance for unauthorised access or interference."
   },
   "metrics": [
     { "value": "92%", "label": "Telemetry coverage", "status": "lab-validated" },

@@ -3,7 +3,7 @@
  * Sibernetick static site generator — zero-dependency Node ESM.
  *
  * Reads:  locales/{code}.json  (i18n chrome + per-page meta; en = canonical)
- *         content/en/**        (canonical EN page bodies)
+ *         content/**           (vendored EN page bodies from _content/en/sibernetick)
  * Writes: public/{locale}/{page}.html  × 19 locales × 12 pages
  *         public/index.html            (EN home, x-default — byte-identical to /en/index.html)
  *         public/sitemap.xml, robots.txt, llms.txt, llms-full.txt,
@@ -18,7 +18,7 @@ import { fileURLToPath } from 'node:url';
 const ROOT = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const OUT = path.join(ROOT, 'public');
 const LOCALES_DIR = path.join(ROOT, 'locales');
-const CONTENT_DIR = path.join(ROOT, 'content', 'en');
+const CONTENT_DIR = path.join(ROOT, 'content');
 
 const SITE = {
   name: 'Sibernetick',
@@ -60,6 +60,11 @@ function esc(s) {
     .replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 }
 function arr(v, fallback = []) { return Array.isArray(v) ? v : fallback; }
+function clamp(s, max) {
+  const str = String(s ?? '').replace(/\s+/g, ' ').trim();
+  if (str.length <= max) return str;
+  return str.slice(0, max - 1).replace(/\s+\S*$/, '') + '…';
+}
 
 /* ─────────────────────── load content + locales ─────────────────────── */
 
@@ -848,6 +853,7 @@ function jsonldOrg() {
     '@type': 'Organization',
     name: SITE.name,
     url: SITE.domain + '/',
+    logo: SITE.domain + '/favicon.svg',
     email: 'mailto:' + SITE.email,
     description: en.site.description,
     sameAs: ['https://github.com/meviza', 'https://x.com/sibernetick', 'https://www.linkedin.com/company/sibernetick']
@@ -869,7 +875,7 @@ function jsonldSoftware(L) {
     '@context': 'https://schema.org',
     '@type': 'SoftwareApplication',
     name: SITE.name,
-    applicationCategory: 'SecurityApplication',
+    applicationCategory: 'Security',
     operatingSystem: 'On-prem / Private cloud',
     url: absUrl(L, 'platform'),
     description: locales[L].pages.platform.description,
@@ -914,8 +920,8 @@ function navLabelForPage(t, p) {
 
 function renderHead(ctx) {
   const { L, p, t, dir } = ctx;
-  const title = t.pages[p].title;
-  const desc = t.pages[p].description;
+  const title = clamp(t.pages[p].title, 60);
+  const desc = clamp(t.pages[p].description, 160);
   const canonical = absUrl(L, p) === SITE.domain + '/en/index' ? SITE.domain + '/' : absUrl(L, p);
   const canonFinal = (L === 'en' && p === 'index') ? SITE.domain + '/' : canonical;
   const ogLocale = t.ogLocale || (L === 'en' ? 'en_US' : L);
@@ -928,6 +934,7 @@ function renderHead(ctx) {
   <meta name="description" content="${esc(desc)}" />
   <meta name="author" content="${SITE.name}" />
   <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large" />
+  <meta name="googlebot" content="index,follow,max-snippet:-1,max-image-preview:large" />
   <link rel="canonical" href="${canonFinal}" />
 ${hreflangLinks(L, p)}
   <meta name="theme-color" content="#04070f" />
@@ -937,15 +944,18 @@ ${hreflangLinks(L, p)}
   <meta property="og:description" content="${esc(desc)}" />
   <meta property="og:url" content="${canonFinal}" />
   <meta property="og:locale" content="${esc(ogLocale)}" />
+  <meta property="og:image" content="${SITE.domain}/favicon.svg" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="${esc(title)}" />
   <meta name="twitter:description" content="${esc(desc)}" />
   <meta name="twitter:url" content="${canonFinal}" />
+  <meta name="twitter:image" content="${SITE.domain}/favicon.svg" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="manifest" href="/manifest.webmanifest" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" /></noscript>
   <style>
 ${CSS}
   </style>
@@ -1021,6 +1031,7 @@ ${links.map((l) => `          <li>${l}</li>`).join('\n')}
     L1(hrefTo(L, p, L, 'terms'), t.footer.links.terms),
     L1(hrefTo(L, p, L, 'cookies'), t.footer.links.cookies),
     L1(hrefTo(L, p, L, 'security'), t.footer.links.security),
+    L1(hrefTo(L, p, L, 'security') + '#responsible-use', t.footer.links.responsibleUse),
     L1(hrefTo(L, p, L, 'licenses'), t.footer.links.licenses)
   ]);
   const community = col(t.footer.community, [
@@ -1249,10 +1260,16 @@ ${evMetrics.map((m) => `      <div class="metric">
     <div class="kicker">${esc(t.nav.company)}</div>
     <h2 id="faq-h">${esc(home.trust?.title || '')}</h2>
     <div class="faq-grid stagger">
-${trust.map((item) => `      <div class="faq-item">
+    ${trust.map((item) => `      <div class="faq-item">
         <h3><span class="q" aria-hidden="true">?</span>${esc(item.title)}</h3>
         <p>${esc(item.body)}</p>
       </div>`).join('\n')}
+    </div>
+    <div class="related" aria-label="${esc(t.nav.platform)}">
+      <a href="${hrefTo(L, p, L, 'platform')}">${esc(t.nav.platform)} →</a>
+      <a href="${hrefTo(L, p, L, 'metrics')}">${esc(t.nav.metrics)} →</a>
+      <a href="${hrefTo(L, p, L, 'community')}">${esc(t.nav.community)} →</a>
+      <a href="${hrefTo(L, p, L, 'open-source')}">${esc(t.nav.opensource)} →</a>
     </div>
     ${renderCtaBand(ctx, home.ctaBand)}
   </section>`;
@@ -1607,6 +1624,12 @@ ${extra.map((ck) => `          <tr><td>${esc(ck.name)}</td><td><span class="st $
       <p>${esc(mgmt.body)}</p>
     </article>` : '';
 
+  const responsibleUse = isSecurity ? `<article class="legal-section" id="responsible-use">
+      <div class="sid">responsible-use</div>
+      <h2>${esc(t.footer.links.responsibleUse)}</h2>
+      <p>${esc(t.common.responsibleUseNote)}</p>
+    </article>` : '';
+
   return `${renderBreadcrumbs(ctx)}
   <header class="page-head wrap reveal" id="main">
     <div class="kicker">${esc(c.header?.eyebrow || t.pages[p].heading)}</div>
@@ -1622,6 +1645,7 @@ ${isCookies ? arr(c.principles).map((pr) => `    <div class="panel" style="margi
 ${sectionHtml}
 ${cookiesTable}
 ${mgmtBlock}
+${responsibleUse}
 ${isSecurity && c.sections?.find?.((s) => s.id === 'disclosure') ? '' : ''}
     <div class="related">
 ${arr(c.related).map((r) => `      <a href="${internalHref(ctx, r.href)}">${esc(r.label)}</a>`).join('\n')}
@@ -1834,7 +1858,8 @@ function build404() {
   <title>404 — ${SITE.name}</title>
   <meta name="robots" content="noindex" />
   <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" /></noscript>
   <style>
 ${CSS}
   </style>
