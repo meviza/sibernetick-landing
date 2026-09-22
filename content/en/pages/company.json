@@ -1,0 +1,62 @@
+{
+  "site": "sibernetick",
+  "page": "company",
+  "locale": "en",
+  "header": {
+    "eyebrow": "Company",
+    "headline": "An engineering company building sovereign AI security",
+    "subhead": "Sibernetick is developed by a team that treats evidence, deployment boundaries, and honest labelling as product requirements — not marketing."
+  },
+  "profile": {
+    "title": "Corporate profile",
+    "facts": [
+      { "key": "Product", "value": "Sibernetick — data-sovereign, AI-native enterprise cybersecurity platform" },
+      { "key": "Domain", "value": "sibernetick.com" },
+      { "key": "Category", "value": "Agentic security operations / data-sovereign AI" },
+      { "key": "Primary markets", "value": "Banking, energy, telecom, public sector" },
+      { "key": "Secondary audiences", "value": "Investors, developers, entrepreneurs" },
+      { "key": "Deployment model", "value": "Sovereign — runs inside customer infrastructure" },
+      { "key": "Evidence posture", "value": "Lab-validated prototype (lab environment, source: product i18n/observatory, 2026-06)" },
+      { "key": "Open source", "value": "Landing site dual-licensed MIT / Apache-2.0" }
+    ],
+    "body": "We build for institutions that cannot compromise on where their data lives. That constraint shapes the architecture: local intelligence, orchestrated agents, and a human approval gate on every change. We publish what the lab has shown and label the rest as roadmap."
+  },
+  "audiences": {
+    "press": {
+      "title": "For press",
+      "bullets": [
+        "Product facts and labelling guidance live in the metrics registry (/metrics).",
+        "Please preserve status labels: lab-validated, prototype, roadmap, early access.",
+        "No competitive claims are authorised beyond published, sourced material."
+      ]
+    },
+    "investors": {
+      "title": "For investors",
+      "bullets": [
+        "Wedge: sovereign deployment where cloud-only AI security is structurally blocked.",
+        "Moat: orchestration tuned to regulated environments plus published evidence discipline.",
+        "Business model: proprietary product under commercial agreement; open landing builds trust and distribution.",
+        "Narrative with no invented numbers: /metrics → investor narrative."
+      ]
+    },
+    "developers": {
+      "title": "For developers & entrepreneurs",
+      "bullets": [
+        "Landing repo is dual-licensed MIT / Apache-2.0 — fork, adapt, ship.",
+        "Good first issues: locale, animation, SEO, case studies.",
+        "Product integration and early access are handled through contact, not self-serve (for now)."
+      ]
+    }
+  },
+  "contactChannels": [
+    { "id": "demo", "label": "Demo & pilot", "value": "Use the contact form — choose \"Demo / Pilot\".", "href": "/contact" },
+    { "id": "investor", "label": "Investor relations", "value": "Use the contact form — choose \"Investor\".", "href": "/contact" },
+    { "id": "press", "label": "Press", "value": "Use the contact form — choose \"Press / Partner\".", "href": "/contact" },
+    { "id": "github", "label": "Engineering & community", "value": "github.com/meviza/sibernetick-landing", "href": "https://github.com/meviza/sibernetick-landing" },
+    { "id": "security", "label": "Security reporting", "value": "Responsible disclosure instructions on /security.", "href": "/security" }
+  ],
+  "ctaBand": {
+    "primaryCta": { "label": "Get a demo", "href": "/contact" },
+    "secondaryCta": { "label": "View on GitHub", "href": "https://github.com/meviza/sibernetick-landing" }
+  }
+}

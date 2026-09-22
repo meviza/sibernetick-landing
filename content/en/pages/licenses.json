@@ -1,0 +1,55 @@
+{
+  "site": "sibernetick",
+  "page": "licenses",
+  "locale": "en",
+  "header": {
+    "eyebrow": "Legal",
+    "headline": "Licenses",
+    "subhead": "What is open, under which license, and what remains proprietary."
+  },
+  "effectiveDate": "2026-06",
+  "sections": [
+    {
+      "id": "open",
+      "title": "Open-source components",
+      "body": "The landing repository (meviza/sibernetick-landing) — pages, components, styles, content schema, and documentation — is dual-licensed.",
+      "table": [
+        { "component": "Landing site source", "license": "MIT OR Apache-2.0 (your choice)" },
+        { "component": "Content templates & metrics registry format", "license": "MIT OR Apache-2.0 (your choice)" },
+        { "component": "Documentation in the landing repo", "license": "MIT OR Apache-2.0 (your choice)" }
+      ],
+      "body2": "Choose one license when you use the code. MIT suits minimal headers; Apache-2.0 adds an express patent grant and NOTICE obligations. Full texts are in the repository."
+    },
+    {
+      "id": "proprietary",
+      "title": "Proprietary components",
+      "body": "The Sibernetick product application, agent runtime, orchestration engine, detection logic, rulesets, and lab datasets are not open source. They are provided under a commercial agreement only.",
+      "table": [
+        { "component": "Product app & console", "license": "Proprietary" },
+        { "component": "Agent runtime & orchestration", "license": "Proprietary" },
+        { "component": "Detection logic & datasets", "license": "Proprietary" }
+      ]
+    },
+    {
+      "id": "third-party",
+      "title": "Third-party licenses",
+      "body": "Dependencies pulled in by the landing repository keep their own licenses; their notices ship with the repository. Where a dependency is Apache-2.0, its NOTICE and attribution requirements are preserved."
+    },
+    {
+      "id": "trademarks",
+      "title": "Trademarks",
+      "body": "The MIT and Apache grants do not cover the Sibernetick name, logo, or branding. Use of marks requires permission; open-source use of the code does not imply endorsement."
+    },
+    {
+      "id": "commercial",
+      "title": "Commercial licensing",
+      "body": "Need a different license for the product, an OEM arrangement, or a co-branded deployment? Contact us.",
+      "link": { "label": "Discuss a commercial agreement", "href": "/contact" }
+    }
+  ],
+  "related": [
+    { "label": "Open source page", "href": "/open-source" },
+    { "label": "Terms of use", "href": "/terms" },
+    { "label": "Security", "href": "/security" }
+  ]
+}

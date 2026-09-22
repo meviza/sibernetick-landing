@@ -1,0 +1,48 @@
+{
+  "site": "sibernetick",
+  "page": "cookies",
+  "locale": "en",
+  "header": {
+    "eyebrow": "Legal",
+    "headline": "Cookie policy",
+    "subhead": "What this site stores on your device and why."
+  },
+  "effectiveDate": "2026-06",
+  "lastUpdated": "2026-06",
+  "principles": [
+    "Essential cookies only by default.",
+    "No advertising cookies. No cross-site tracking. No data sale.",
+    "Non-essential measurement, if introduced, will require consent where the law demands it and will be listed here before it runs."
+  ],
+  "cookies": [
+    {
+      "name": "session / preference",
+      "category": "Essential",
+      "purpose": "Keeps basic site preferences (such as dismissed banners) working during your visit.",
+      "duration": "Session or up to 12 months",
+      "consent": "Not required (strictly necessary)"
+    },
+    {
+      "name": "security / rate-limit",
+      "category": "Essential",
+      "purpose": "Protects forms and endpoints from abuse.",
+      "duration": "Short-lived",
+      "consent": "Not required (strictly necessary)"
+    },
+    {
+      "name": "aggregate analytics",
+      "category": "Optional",
+      "purpose": "Counts page views to guide content work. Aggregated; not used for profiling.",
+      "duration": "Up to 13 months",
+      "consent": "Required where applicable; disabled until granted"
+    }
+  ],
+  "management": {
+    "title": "Managing cookies",
+    "body": "You can delete or block cookies in your browser settings. Blocking essential cookies may break contact forms. Withdrawal of consent for optional cookies can be done at any time via the preference control or by clearing site data."
+  },
+  "related": [
+    { "label": "Privacy policy", "href": "/privacy" },
+    { "label": "Terms of use", "href": "/terms" }
+  ]
+}

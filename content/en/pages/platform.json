@@ -1,0 +1,117 @@
+{
+  "site": "sibernetick",
+  "page": "platform",
+  "locale": "en",
+  "header": {
+    "eyebrow": "Platform",
+    "headline": "Architecture built for controlled autonomy",
+    "subhead": "A coordination layer, six specialised agents, local intelligence, and an approval gate between proposal and change. Every capability below is labelled: lab-validated prototype, or roadmap."
+  },
+  "architecture": {
+    "title": "How the pieces fit",
+    "layers": [
+      {
+        "id": "sovereign-deployment",
+        "title": "Sovereign deployment layer",
+        "body": "The platform is installed and operated inside your infrastructure. Network boundaries, key management, and log retention follow your policy.",
+        "status": "lab-validated"
+      },
+      {
+        "id": "local-intelligence",
+        "title": "Local intelligence layer",
+        "body": "Detection and correlation run next to the telemetry. Data-sovereign by design: raw signal does not leave the environment for analysis.",
+        "status": "lab-validated"
+      },
+      {
+        "id": "agent-orchestration",
+        "title": "Agent orchestration layer",
+        "body": "A single coordination plane assigns work across agents, de-duplicates findings, and attaches environment context before anything reaches an operator.",
+        "status": "lab-validated"
+      },
+      {
+        "id": "human-approval-gate",
+        "title": "Human approval gate",
+        "body": "Every remediation proposal routes to an authorised reviewer. Approval, rejection, and rationale are recorded.",
+        "status": "lab-validated"
+      },
+      {
+        "id": "integration-surface",
+        "title": "Integration surface",
+        "body": "Connectors for ticketing, identity, and notification channels. Broadening the connector set is tracked as roadmap capability.",
+        "status": "roadmap"
+      }
+    ]
+  },
+  "agents": {
+    "title": "The agent roster",
+    "note": "Agents operate under orchestration and cannot apply changes without passing the approval gate.",
+    "items": [
+      {
+        "id": "recon",
+        "name": "Recon agent",
+        "mission": "Maps the environment: assets, services, and reachable surfaces, so the rest of the system works from a shared picture.",
+        "status": "lab-validated"
+      },
+      {
+        "id": "surface",
+        "name": "Surface agent",
+        "mission": "Tracks external and internal exposure of the attack surface and flags material change.",
+        "status": "lab-validated"
+      },
+      {
+        "id": "identity",
+        "name": "Identity agent",
+        "mission": "Reviews accounts, privileges, and authentication paths for drift and excessive access.",
+        "status": "lab-validated"
+      },
+      {
+        "id": "config",
+        "name": "Config agent",
+        "mission": "Compares running configuration against intended baselines and proposes corrections.",
+        "status": "lab-validated"
+      },
+      {
+        "id": "threat",
+        "name": "Threat agent",
+        "mission": "Correlates verified signals into incidents with context, reducing noise before an analyst sees it.",
+        "status": "lab-validated"
+      },
+      {
+        "id": "exposure",
+        "name": "Exposure agent",
+        "mission": "Prioritises known exposure by business impact and validates whether compensating controls hold.",
+        "status": "lab-validated"
+      }
+    ]
+  },
+  "capabilities": {
+    "title": "Capability status board",
+    "note": "Lab-validated describes prototype evidence from a lab environment (source: product i18n/observatory, 2026-06). Roadmap describes planned capability. Neither statement is a production SLA.",
+    "rows": [
+      { "capability": "Agent orchestration across six agents", "status": "lab-validated" },
+      { "capability": "Local analysis with data-resident telemetry", "status": "lab-validated" },
+      { "capability": "Human approval workflow with audit trail", "status": "lab-validated" },
+      { "capability": "Sovereign deployment in customer infrastructure", "status": "lab-validated" },
+      { "capability": "Posture scoring with before/after comparison", "status": "lab-validated" },
+      { "capability": "Broader connector catalogue", "status": "roadmap" },
+      { "capability": "Multi-site fleet coordination", "status": "roadmap" },
+      { "capability": "Early access programme for design partners", "status": "roadmap" }
+    ]
+  },
+  "operatingModel": {
+    "title": "Operating model",
+    "steps": [
+      { "step": 1, "title": "Deploy sovereignly", "body": "Install inside your perimeter under your network and key policy." },
+      { "step": 2, "title": "Agents build the picture", "body": "Recon, surface, and identity establish a shared environment model." },
+      { "step": 3, "title": "Signals are verified", "body": "Config, threat, and exposure validate findings before they surface as alerts." },
+      { "step": 4, "title": "Humans approve", "body": "Remediation proposals reach an authorised reviewer; nothing applies automatically." },
+      { "step": 5, "title": "Posture is measured", "body": "Before/after comparison is recorded with methodology and date attached." }
+    ]
+  },
+  "ctaBand": {
+    "title": "Evaluate the architecture with your team",
+    "body": "Bring your security architects. We walk the deployment model, the approval gate, and the evidence behind every lab number.",
+    "primaryCta": { "label": "Get a demo", "href": "/contact" },
+    "secondaryCta": { "label": "View on GitHub", "href": "https://github.com/meviza/sibernetick-landing" }
+  }
+}

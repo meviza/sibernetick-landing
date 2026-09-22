@@ -1,0 +1,61 @@
+{
+  "site": "sibernetick",
+  "page": "security",
+  "locale": "en",
+  "header": {
+    "eyebrow": "Trust",
+    "headline": "Security & responsible use",
+    "subhead": "How we secure this site, how to report a vulnerability, and the responsible-use boundary for anything we publish."
+  },
+  "effectiveDate": "2026-06",
+  "sections": [
+    {
+      "id": "site-security",
+      "title": "Securing this site",
+      "bullets": [
+        "HTTPS enforced across all pages; modern TLS configuration.",
+        "Minimal data collection — the contact form collects only what routing requires.",
+        "Access to content and infrastructure is limited to maintainers with individual accounts and multi-factor authentication.",
+        "Dependency and content review on every pull request; releases are tagged and auditable."
+      ]
+    },
+    {
+      "id": "disclosure",
+      "title": "Vulnerability disclosure",
+      "body": "Report vulnerabilities in the landing repository or site through the GitHub Security Advisory channel (private reporting) or the security tab of the repository. Do not open a public issue for exploitable findings.",
+      "steps": [
+        "Describe the issue, affected path, and reproduction steps.",
+        "Allow reasonable time for a fix before public discussion.",
+        "We acknowledge reports promptly and keep the reporter informed.",
+        "Credit is offered unless you prefer to remain anonymous."
+      ],
+      "link": { "label": "Report via GitHub Security", "href": "https://github.com/meviza/sibernetick-landing/security" }
+    },
+    {
+      "id": "responsible-use",
+      "title": "Responsible use",
+      "body": "Content here describes a defensive security product. Published material is intended for defenders evaluating or operating the platform in environments they are authorised to assess.",
+      "bullets": [
+        "Do not use our content to target systems you are not authorised to test.",
+        "Do not reproduce site material to create unverified claims about capabilities.",
+        "Lab-validated figures describe lab conditions; do not present them as production guarantees.",
+        "Requests that ask us to support unauthorised access, disruption, or evasion are declined."
+      ]
+    },
+    {
+      "id": "product-security",
+      "title": "Product security (under agreement)",
+      "body": "Security architecture, deployment hardening, and support channels for the Sibernetick product are covered in the commercial agreement and its documentation — not on this public site."
+    },
+    {
+      "id": "compliance-note",
+      "title": "Note",
+      "body": "This page describes the landing site's controls. Certifications and audit reports for the product, when they exist, will be shared under NDA through the contact channel."
+    }
+  ],
+  "related": [
+    { "label": "Terms of use", "href": "/terms" },
+    { "label": "Privacy policy", "href": "/privacy" },
+    { "label": "Licenses", "href": "/licenses" }
+  ]
+}

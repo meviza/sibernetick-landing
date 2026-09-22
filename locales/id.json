@@ -1,0 +1,221 @@
+{
+  "code": "id",
+  "name": "Bahasa Indonesia",
+  "dir": "ltr",
+  "ogLocale": "id_ID",
+  "site": {
+    "tagline": "Keamanan siber korporatif berdaulat data, natif AI",
+    "description": "Sibernetick adalah platform keamanan siber korporatif yang berdaulat data dan natif AI: agen keamanan beroperasi di dalam perimeter Anda, perbaikan disetujui manusia, dan bukti divalidasi di laboratorium."
+  },
+  "nav": {
+    "home": "Beranda",
+    "platform": "Platform",
+    "metrics": "Metrik",
+    "community": "Komunitas",
+    "opensource": "Open source",
+    "company": "Perusahaan",
+    "contact": "Kontak",
+    "github": "GitHub",
+    "demo": "Minta demo",
+    "menu": "Menu",
+    "close": "Tutup",
+    "language": "Bahasa",
+    "skip": "Lewati ke konten"
+  },
+  "hero": {
+    "badge": "Sovereignitas data · Natif AI",
+    "eyebrow": "Keamanan siber korporatif berdaulat data, natif AI",
+    "title": "Agen keamanan yang beroperasi di dalam perimeter Anda.",
+    "subtitle": "Sibernetick mengoordinasikan tim agen AI di lingkungan Anda, memverifikasi temuan mereka, dan mengusulkan perbaikan yang disetujui tim Anda sebelum ada yang berubah. Dikembangkan di infrastruktur Anda. Bukti dari laboratorium, dinyatakan sebagai bukti laboratorium.",
+    "primaryCta": "Minta demo",
+    "secondaryCta": "Lihat di GitHub",
+    "trust": [
+      "Deployment berdaulat / on-premise",
+      "Perbaikan disetujui manusia",
+      "Least privilege by design",
+      "Kesiapan korporatif"
+    ]
+  },
+  "pages": {
+    "index": {
+      "title": "Sibernetick — Keamanan siber korporatif berdaulat data",
+      "description": "Agen AI keamanan yang beroperasi di dalam perimeter Anda. Deployment berdaulat, perbaikan disetujui manusia, bukti divalidasi di laboratorium. Minta demo atau pilot.",
+      "heading": "Agen keamanan yang beroperasi di dalam perimeter Anda.",
+      "subhead": "Sibernetick mengoordinasikan tim agen AI di lingkungan Anda, memverifikasi temuan mereka, dan mengusulkan perbaikan yang disetujui tim Anda sebelum ada yang berubah."
+    },
+    "platform": {
+      "title": "Platform — Arsitektur untuk otonomi terkendali | Sibernetick",
+      "description": "Lapisan koordinasi, enam agen khusus, intelijen lokal, dan gerbang persetujuan antara usulan dan perubahan. Setiap kapasitas dilabeli prototipe tervalidasi laboratorium atau peta jalan.",
+      "heading": "Arsitektur yang dibangun untuk otonomi terkendali",
+      "subhead": "Lapisan koordinasi, enam agen khusus, intelijen lokal, dan gerbang persetujuan antara usulan dan perubahan. Setiap kapasitas di bawah ini dilabeli: prototipe tervalidasi laboratorium, atau peta jalan."
+    },
+    "metrics": {
+      "title": "Registrasi metrik — Setiap angka dengan buktinya | Sibernetick",
+      "description": "Setiap angka yang dipublikasikan membawa metodologi, sumber, tanggal, dan status. Bukti prototipe tervalidasi laboratorium dari product i18n/observatory, 2026-06.",
+      "heading": "Setiap angka, dengan buktinya",
+      "subhead": "Metodologi, sumber, tanggal, dan status wajib ada. Tidak ada yang dipublikasikan di sini tanpa itu."
+    },
+    "community": {
+      "title": "Komunitas — Dibangun terbuka, ditinjau terbuka | Sibernetick",
+      "description": "Situs landing bersifat publik. Star, watch, fork, buka issue, atau kirim branch — kontribusi konten, locale, aksesibilitas, dan dokumentasi ditinjau seperti kode.",
+      "heading": "Dibangun terbuka, ditinjau terbuka",
+      "subhead": "Situs landing bersifat publik. Kontribusi konten, locale, aksesibilitas, dan dokumentasi diterima dan ditinjau seperti kode."
+    },
+    "open-source": {
+      "title": "Open source — Landing terbuka, produk privat | Sibernetick",
+      "description": "Repositori landing berlisensi ganda MIT ATAU Apache-2.0. Produk keamanan itu sendiri bersifat komersial dan tetap privat hingga ada perjanjian.",
+      "heading": "Landing terbuka, produk privat",
+      "subhead": "Kode situs ini berlisensi ganda. Produk keamanan itu sendiri bersifat komersial dan tetap privat hingga ada perjanjian."
+    },
+    "company": {
+      "title": "Perusahaan — Keamanan AI berdaulat, rekayasa jujur | Sibernetick",
+      "description": "Sibernetick adalah perusahaan rekayasa yang membangun keamanan AI berdaulat data. Bukti, batas deployment, dan pelabelan jujur adalah persyaratan produk.",
+      "heading": "Perusahaan rekayasa untuk keamanan AI berdaulat",
+      "subhead": "Sibernetick dikembangkan oleh tim yang memperlakukan bukti, batas deployment, dan pelabelan jujur sebagai persyaratan produk — bukan pemasaran."
+    },
+    "contact": {
+      "title": "Kontak — Demo, pilot, investor, kemitraan | Sibernetick",
+      "description": "Ceritakan apa yang sedang Anda evaluasi. Pilih jalur yang sesuai niat Anda — demo, pilot, investor, atau kemitraan — agar tim yang tepat yang membalas.",
+      "heading": "Ceritakan apa yang sedang Anda evaluasi",
+      "subhead": "Kolom formulir didefinisikan di aplikasi; halaman ini menyediakan pengantar. Pilih jalur yang sesuai agar tim yang tepat yang membalas."
+    },
+    "privacy": {
+      "title": "Kebijakan privasi | Sibernetick",
+      "description": "Bagaimana sibernetick.com menangani data pribadi saat Anda menelusuri situs atau menghubungi kami: pengumpulan, tujuan, berbagi, penyimpanan, dan hak Anda.",
+      "heading": "Kebijakan privasi",
+      "subhead": "Bagaimana sibernetick.com menangani data pribadi saat Anda menelusuri situs atau menghubungi kami."
+    },
+    "terms": {
+      "title": "Ketentuan penggunaan | Sibernetick",
+      "description": "Aturan penggunaan sibernetick.com dan konten yang dipublikasikan di dalamnya, termasuk label bukti, penggunaan wajar, dan penafian.",
+      "heading": "Ketentuan penggunaan",
+      "subhead": "Aturan penggunaan sibernetick.com dan konten yang dipublikasikan di dalamnya."
+    },
+    "cookies": {
+      "title": "Kebijakan cookie | Sibernetick",
+      "description": "Apa yang disimpan situs ini di perangkat Anda dan mengapa: secara bawaan hanya cookie esensial, tanpa cookie iklan, tanpa pelacakan lintas situs, tanpa penjualan data.",
+      "heading": "Kebijakan cookie",
+      "subhead": "Apa yang disimpan situs ini di perangkat Anda dan mengapa."
+    },
+    "security": {
+      "title": "Keamanan & penggunaan bertanggung jawab | Sibernetick",
+      "description": "Bagaimana kami mengamankan situs ini, cara melaporkan kerentanan, dan batas penggunaan bertanggung jawab atas semua yang kami publikasikan.",
+      "heading": "Keamanan & penggunaan bertanggung jawab",
+      "subhead": "Bagaimana kami mengamankan situs ini, cara melaporkan kerentanan, dan batas penggunaan bertanggung jawab atas semua yang kami publikasikan."
+    },
+    "licenses": {
+      "title": "Lisensi — Komponen terbuka dan proprietari | Sibernetick",
+      "description": "Apa yang terbuka dan di bawah lisensi apa (MIT ATAU Apache-2.0), serta apa yang tetap proprietari di bawah perjanjian komersial.",
+      "heading": "Lisensi",
+      "subhead": "Apa yang terbuka, di bawah lisensi apa, dan apa yang tetap proprietari."
+    }
+  },
+  "footer": {
+    "description": "Keamanan siber korporatif berdaulat data dan natif AI untuk perbankan, energi, telekomunikasi, dan sektor publik.",
+    "product": "Produk",
+    "company": "Perusahaan",
+    "legal": "Hukum",
+    "community": "Komunitas / GitHub",
+    "links": {
+      "platform": "Platform",
+      "metrics": "Registrasi metrik",
+      "opensource": "Open source",
+      "demo": "Minta demo",
+      "about": "Tentang kami",
+      "contact": "Kontak",
+      "press": "Pers & investor",
+      "privacy": "Kebijakan privasi",
+      "terms": "Ketentuan penggunaan",
+      "cookies": "Kebijakan cookie",
+      "security": "Keamanan",
+      "licenses": "Lisensi",
+      "repository": "Repositori",
+      "issues": "Issues",
+      "releases": "Rilis",
+      "communityPage": "Halaman komunitas"
+    },
+    "legalLine": "© {year} Sibernetick. Hak cipta dilindungi. Label «tervalidasi laboratorium» merujuk pada bukti prototipe di lingkungan laboratorium (sumber: product i18n/observatory, 2026-06).",
+    "tagline": "Beri bintang ke repositori jika bermanfaat. Pantau rilis.",
+    "licenseBadge": "MIT OR Apache-2.0",
+    "built": "Landing terbuka · lisensi ganda"
+  },
+  "form": {
+    "kicker": "Kontak",
+    "heading": "Minta demo, kita rencanakan pilot bersama.",
+    "lede": "Layanan korporatif, pilot teknis, kemitraan, atau diskusi investor — beri kami konteksnya, kami yang arahkan. Kami membalas dalam dua hari kerja.",
+    "bullets": [
+      "Akses demo tertutup dan contoh laporan",
+      "Evaluasi arsitektur deployment berdaulat",
+      "Briefing investor dan peta jalan",
+      "Pemrosesan data sesuai GDPR / KVKK"
+    ],
+    "direct": "Langsung:",
+    "routingNote": "Pesan dialirkan melalui domain.",
+    "name": "Nama lengkap",
+    "namePh": "Nama Anda",
+    "email": "Email",
+    "emailPh": "anda@perusahaan.com",
+    "companyLabel": "Organisasi",
+    "companyPh": "Nama organisasi",
+    "phone": "Telepon",
+    "phonePh": "+62 …",
+    "interest": "Jenis permintaan",
+    "select": "Pilih…",
+    "optDemo": "Demo / presentasi tertutup",
+    "optPilot": "Pilot teknis",
+    "optEnterprise": "Permintaan layanan korporatif",
+    "optInvestor": "Pertemuan investor",
+    "optPartner": "Kemitraan / kolaborasi",
+    "optOther": "Lainnya",
+    "message": "Pesan",
+    "messagePh": "Uraikan singkat kebutuhan atau pertanyaan Anda…",
+    "note": "Data formulir hanya diproses untuk menanggapi permintaan Anda. Penyimpanan sesuai GDPR / KVKK; tidak pernah dibagikan ke pihak ketiga untuk pemasaran.",
+    "required": "Harap isi kolom yang wajib.",
+    "invalidEmail": "Masukkan alamat email yang valid.",
+    "success": "Terima kasih! Permintaan Anda telah kami terima — kami akan segera membalas.",
+    "error": "Terjadi kesalahan. Silakan coba lagi.",
+    "submit": "Kirim"
+  },
+  "cta": {
+    "star": "Bintang",
+    "watch": "Pantau",
+    "fork": "Fork",
+    "starLong": "Beri bintang ke repositori",
+    "watchLong": "Pantau rilis",
+    "forkLong": "Fork dan sesuaikan",
+    "issue": "Buka issue",
+    "pr": "Kirim branch",
+    "viewGithub": "Lihat di GitHub",
+    "getDemo": "Minta demo",
+    "readMetrics": "Baca registrasi metrik",
+    "contact": "Kontak",
+    "licenses": "Lisensi",
+    "talkCommercial": "Bahas perjanjian komersial",
+    "bandTitle": "Evaluasi terhadap lingkungan Anda",
+    "bandBody": "Jadwalkan demo untuk tim keamanan dan arsitektur Anda, atau baca dulu repositori landing — kedua pintu terbuka."
+  },
+  "common": {
+    "methodology": "Metodologi",
+    "source": "Sumber",
+    "date": "Tanggal",
+    "status": "Status",
+    "notes": "Catatan",
+    "label": "Label",
+    "value": "Nilai",
+    "related": "Terkait",
+    "effective": "Berlaku sejak",
+    "lastUpdated": "Terakhir diperbarui",
+    "labValidated": "tervalidasi laboratorium",
+    "roadmap": "peta jalan",
+    "prototype": "prototipe",
+    "open": "Terbuka",
+    "private": "Privat",
+    "essential": "Esensial",
+    "optional": "Opsional",
+    "backHome": "Kembali ke beranda",
+    "pageNotFound": "Halaman tidak ditemukan",
+    "pageNotFoundBody": "Halaman yang Anda cari tidak ada atau telah dipindahkan.",
+    "skip": "Lewati ke konten utama",
+    "allLocales": "Semua bahasa"
+  }
+}

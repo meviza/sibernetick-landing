@@ -1,0 +1,92 @@
+{
+  "site": "sibernetick",
+  "page": "home",
+  "locale": "en",
+  "hero": {
+    "eyebrow": "Data-sovereign, AI-native enterprise cybersecurity",
+    "headline": "Security agents that operate inside your perimeter.",
+    "subhead": "Sibernetick coordinates a team of AI agents across your environment, verifies what they find, and proposes remediation your team approves before anything changes. Deployed in your infrastructure. Evidence from the lab, stated as lab evidence.",
+    "primaryCta": { "label": "Get a demo", "href": "/contact" },
+    "secondaryCta": { "label": "View on GitHub", "href": "https://github.com/meviza/sibernetick-landing" }
+  },
+  "problem": {
+    "title": "The operational gap is not another dashboard",
+    "body": [
+      "Security teams in banks, energy, telecom, and the public sector collect more signals than they can verify. Tools are fragmented, context is split across consoles, and every additional SaaS sensor raises a data-residency question the procurement team has to answer.",
+      "Sovereignty constraints rule out architectures that ship raw telemetry to a third-party cloud. Headcount does not scale with the surface area. The result is a backlog of unvalidated findings and remediation decisions made without a complete picture."
+    ],
+    "audienceNote": "Built for regulated enterprises first: banks, energy operators, telecom providers, and public institutions — and for the investors, developers, and entrepreneurs evaluating the category."
+  },
+  "solution": {
+    "title": "Four pillars, one control plane",
+    "body": "Sibernetick runs agent orchestration over local intelligence, keeps a human in the approval path for every change, and ships as a sovereign deployment you host.",
+    "pillars": [
+      {
+        "id": "agent-orchestration",
+        "title": "Agent orchestration",
+        "body": "Six specialised agents — recon, surface, identity, config, threat, exposure — share one coordination layer so findings arrive with context, not as isolated alerts."
+      },
+      {
+        "id": "local-intelligence",
+        "title": "Local intelligence",
+        "body": "Analysis runs where your data already lives. Telemetry stays inside the environment you control; the platform is designed for data-sovereign operation."
+      },
+      {
+        "id": "human-approved-remediation",
+        "title": "Human-approved remediation",
+        "body": "Agents propose; people approve. No configuration change, isolation, or access adjustment is applied without an explicit review step."
+      },
+      {
+        "id": "sovereign-deploy",
+        "title": "Sovereign deploy",
+        "body": "Run in your own infrastructure, under your own network policy, with your own key management. Deployment topology is part of the contract, not an afterthought."
+      }
+    ]
+  },
+  "evidenceStrip": {
+    "title": "Prototype evidence (lab environment)",
+    "note": "Status: lab-validated prototype. Methodology: lab environment. Source: product i18n/observatory. Date: 2026-06. Full registry: /metrics.",
+    "items": [
+      { "value": "92%", "label": "Telemetry coverage", "status": "lab-validated" },
+      { "value": "1,430", "label": "Daily verified signals", "status": "lab-validated" },
+      { "value": "+8 points", "label": "Posture improvement", "status": "lab-validated" },
+      { "value": "4 min", "label": "Mean validation time", "status": "lab-validated" }
+    ]
+  },
+  "trust": {
+    "title": "Why teams take a first meeting",
+    "items": [
+      {
+        "id": "sovereignty",
+        "title": "Sovereignty is the default",
+        "body": "Designed for institutions that cannot export telemetry. Data residency is an architecture decision, not a premium tier."
+      },
+      {
+        "id": "evidence-honesty",
+        "title": "Lab-validated vs roadmap, labelled",
+        "body": "Every number we publish carries methodology, source, date, and status. Prototype evidence is called prototype evidence; roadmap capability is called roadmap capability."
+      },
+      {
+        "id": "human-control",
+        "title": "Humans keep the keys",
+        "body": "Remediation is a proposal until an authorised reviewer approves it. Audit trails cover both the agent action and the approval."
+      },
+      {
+        "id": "open-landing",
+        "title": "Open landing, private product",
+        "body": "This site's code is dual-licensed MIT / Apache-2.0. The product application stays private until you are under agreement."
+      },
+      {
+        "id": "engineering-led",
+        "title": "Engineering-led engagement",
+        "body": "Demos are run by the people building the system. Early access includes direct channels to the team, not a ticket queue."
+      }
+    ]
+  },
+  "ctaBand": {
+    "title": "See it against your environment",
+    "body": "Book a demo for your security and architecture team, or read the landing repository first — both doors are open.",
+    "primaryCta": { "label": "Get a demo", "href": "/contact" },
+    "secondaryCta": { "label": "View on GitHub", "href": "https://github.com/meviza/sibernetick-landing" }
+  }
+}

@@ -1,0 +1,44 @@
+name: Translation
+description: Report a translation issue or propose a new locale
+title: "[i18n] "
+labels: ["translation"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What kind of translation issue is this?
+      options:
+        - Missing or wrong translation on an existing locale
+        - Machine translation needs native review
+        - Propose a brand-new locale
+    validations:
+      required: true
+  - type: input
+    id: locale
+    attributes:
+      label: Locale code
+      placeholder: e.g. tr, ar, de, ja
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Page / URL
+      placeholder: e.g. https://sibernetick.com/platform
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text (if incorrect)
+      description: Paste the string as it appears on the site.
+  - type: textarea
+    id: suggested
+    attributes:
+      label: Suggested text
+      description: Your proposed correction, or "N/A" for a new-locale request.
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: Confirmation
+      options:
+        - label: I understand English is the source of truth and missing keys fall back to en.
+          required: true

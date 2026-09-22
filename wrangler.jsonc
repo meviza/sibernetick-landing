@@ -1,0 +1,26 @@
+{
+  "name": "sibernetick-site",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-01",
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page",
+    "run_worker_first": true
+  },
+  "send_email": [
+    {
+      "name": "EMAIL"
+    }
+  ],
+  "observability": {
+    "enabled": true
+  },
+  "routes": [
+    { "pattern": "sibernetick.com/*", "zone_name": "sibernetick.com" },
+    { "pattern": "www.sibernetick.com/*", "zone_name": "sibernetick.com" }
+  ],
+  "vars": {
+    "NOTIFY_EMAIL": "kerem.newton571@gmail.com",
+    "FROM_EMAIL": "noreply@sibernetick.com"
+  }
+}

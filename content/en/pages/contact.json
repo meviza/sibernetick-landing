@@ -1,0 +1,47 @@
+{
+  "site": "sibernetick",
+  "page": "contact",
+  "locale": "en",
+  "header": {
+    "eyebrow": "Contact",
+    "headline": "Tell us what you are evaluating",
+    "subhead": "Form labels are already defined in the application; this page provides the introduction around them. Choose the track that matches your intent so the right team replies."
+  },
+  "intro": "Sibernetick engagements start with a conversation, not a funnel. Whether you want a technical demo, a scoped pilot, an investor discussion, or a partnership, give us the context and we will route it.",
+  "tracks": [
+    {
+      "id": "demo",
+      "title": "Demo",
+      "body": "A working walkthrough of agent orchestration, the approval gate, and sovereign deployment — run by the engineering team."
+    },
+    {
+      "id": "pilot",
+      "title": "Pilot",
+      "body": "A scoped evaluation in a non-production slice of your environment, with success criteria and evidence recording agreed up front."
+    },
+    {
+      "id": "investor",
+      "title": "Investor",
+      "body": "Narrative, architecture, and lab evidence — including the metrics registry with methodology, source, date, and status."
+    },
+    {
+      "id": "partner",
+      "title": "Partner / Press",
+      "body": "Commercial agreements, integrations, channel partnerships, and press requests."
+    }
+  ],
+  "expectations": [
+    "We reply from a named human, typically within two business days.",
+    "Technical questions are answered by engineers, not a script.",
+    "We will not quote numbers that are not in the metrics registry."
+  ],
+  "formNote": "Form fields (name, email, organisation, track, message) are implemented in the application. Do not duplicate field definitions here.",
+  "alternativeChannels": [
+    { "label": "GitHub issues (public, for the landing repo)", "href": "https://github.com/meviza/sibernetick-landing/issues" },
+    { "label": "Security disclosure", "href": "/security" }
+  ],
+  "ctaBand": {
+    "primaryCta": { "label": "View on GitHub", "href": "https://github.com/meviza/sibernetick-landing" },
+    "secondaryCta": { "label": "Read the metrics registry", "href": "/metrics" }
+  }
+}

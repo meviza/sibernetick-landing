@@ -1,0 +1,58 @@
+{
+  "site": "sibernetick",
+  "locale": "en",
+  "brand": {
+    "name": "Sibernetick",
+    "description": "Data-sovereign, AI-native enterprise cybersecurity for banks, energy, telecom, and the public sector.",
+    "href": "/"
+  },
+  "columns": [
+    {
+      "id": "product",
+      "title": "Product",
+      "links": [
+        { "label": "Platform", "href": "/platform" },
+        { "label": "Metrics registry", "href": "/metrics" },
+        { "label": "Open source", "href": "/open-source" },
+        { "label": "Get a demo", "href": "/contact" }
+      ]
+    },
+    {
+      "id": "company",
+      "title": "Company",
+      "links": [
+        { "label": "About", "href": "/company" },
+        { "label": "Contact", "href": "/contact" },
+        { "label": "Press & investors", "href": "/company#audiences" }
+      ]
+    },
+    {
+      "id": "legal",
+      "title": "Legal",
+      "links": [
+        { "label": "Privacy policy", "href": "/privacy" },
+        { "label": "Terms of use", "href": "/terms" },
+        { "label": "Cookie policy", "href": "/cookies" },
+        { "label": "Security", "href": "/security" },
+        { "label": "Licenses", "href": "/licenses" }
+      ]
+    },
+    {
+      "id": "community",
+      "title": "Community / GitHub",
+      "links": [
+        { "label": "Repository", "href": "https://github.com/meviza/sibernetick-landing" },
+        { "label": "Issues", "href": "https://github.com/meviza/sibernetick-landing/issues" },
+        { "label": "Releases", "href": "https://github.com/meviza/sibernetick-landing/releases" },
+        { "label": "Community page", "href": "/community" }
+      ]
+    }
+  ],
+  "social": [
+    { "id": "github", "label": "GitHub", "href": "https://github.com/meviza" },
+    { "id": "x", "label": "X", "href": "https://x.com/sibernetick" },
+    { "id": "linkedin", "label": "LinkedIn", "href": "https://www.linkedin.com/company/sibernetick" }
+  ],
+  "legalLine": "© {year} Sibernetick. All rights reserved. Lab-validated labels refer to prototype evidence in a lab environment (source: product i18n/observatory, 2026-06).",
+  "tagline": "Star the repo if it helps. Watch for releases."
+}

@@ -1,0 +1,221 @@
+{
+  "code": "es",
+  "name": "Español",
+  "dir": "ltr",
+  "ogLocale": "es_ES",
+  "site": {
+    "tagline": "Ciberseguridad empresarial soberana en datos y nativa de IA",
+    "description": "Sibernetick es una plataforma de ciberseguridad empresarial soberana en datos y nativa de IA: agentes de seguridad que operan dentro de su perímetro, con remediación aprobada por humanos y evidencia validada en laboratorio."
+  },
+  "nav": {
+    "home": "Inicio",
+    "platform": "Plataforma",
+    "metrics": "Métricas",
+    "community": "Comunidad",
+    "opensource": "Código abierto",
+    "company": "Empresa",
+    "contact": "Contacto",
+    "github": "GitHub",
+    "demo": "Solicitar demo",
+    "menu": "Menú",
+    "close": "Cerrar",
+    "language": "Idioma",
+    "skip": "Saltar al contenido"
+  },
+  "hero": {
+    "badge": "Soberanía de datos · Nativa de IA",
+    "eyebrow": "Ciberseguridad empresarial soberana en datos y nativa de IA",
+    "title": "Agentes de seguridad que operan dentro de su perímetro.",
+    "subtitle": "Sibernetick coordina un equipo de agentes de IA en su entorno, verifica lo que encuentran y propone remediaciones que su equipo aprueba antes de que algo cambie. Desplegado en su infraestructura. Evidencia de laboratorio, presentada como tal.",
+    "primaryCta": "Solicitar demo",
+    "secondaryCta": "Ver en GitHub",
+    "trust": [
+      "Despliegue soberano / on-premise",
+      "Remediación aprobada por humanos",
+      "Mínimo privilegio por diseño",
+      "Preparación empresarial"
+    ]
+  },
+  "pages": {
+    "index": {
+      "title": "Sibernetick — Ciberseguridad empresarial soberana en datos",
+      "description": "Agentes de IA de seguridad que operan dentro de su perímetro. Despliegue soberano, remediación aprobada por humanos, evidencia validada en laboratorio. Solicite una demo o un piloto.",
+      "heading": "Agentes de seguridad que operan dentro de su perímetro.",
+      "subhead": "Sibernetick coordina un equipo de agentes de IA en su entorno, verifica lo que encuentran y propone remediaciones que su equipo aprueba antes de que algo cambie."
+    },
+    "platform": {
+      "title": "Plataforma — Arquitectura para autonomía controlada | Sibernetick",
+      "description": "Una capa de coordinación, seis agentes especializados, inteligencia local y una compuerta de aprobación entre propuesta y cambio. Cada capacidad se etiqueta como prototipo validado en laboratorio o hoja de ruta.",
+      "heading": "Arquitectura construida para la autonomía controlada",
+      "subhead": "Una capa de coordinación, seis agentes especializados, inteligencia local y una compuerta de aprobación entre propuesta y cambio. Cada capacidad inferior está etiquetada: prototipo validado en laboratorio, u hoja de ruta."
+    },
+    "metrics": {
+      "title": "Registro de métricas — Cada cifra con su evidencia | Sibernetick",
+      "description": "Cada cifra publicada lleva metodología, fuente, fecha y estado. Evidencia de prototipo validada en laboratorio del i18n/observatory del producto, 2026-06.",
+      "heading": "Cada cifra, con su evidencia adjunta",
+      "subhead": "Metodología, fuente, fecha y estado son obligatorios. Nada se publica aquí sin ellos."
+    },
+    "community": {
+      "title": "Comunidad — Construido en abierto, revisado en abierto | Sibernetick",
+      "description": "El sitio de presentación es público. Destelle, observe, bifurque, abra un issue o envíe una rama — las contribuciones de contenido, idioma, accesibilidad y documentación se revisan como código.",
+      "heading": "Construido en abierto, revisado en abierto",
+      "subhead": "El sitio de presentación es público. Las contribuciones de contenido, idioma, accesibilidad y documentación son bienvenidas y se revisan como código."
+    },
+    "open-source": {
+      "title": "Código abierto — Landing abierto, producto privado | Sibernetick",
+      "description": "El repositorio de presentación es de doble licencia MIT O Apache-2.0. El producto de seguridad en sí es comercial y permanece privado hasta que exista un acuerdo.",
+      "heading": "Landing abierto, producto privado",
+      "subhead": "El código que ejecuta este sitio es de doble licencia. El producto de seguridad en sí es comercial y permanece privado hasta que exista un acuerdo."
+    },
+    "company": {
+      "title": "Empresa — Seguridad IA soberana, ingeniería honesta | Sibernetick",
+      "description": "Sibernetick es una empresa de ingeniería que construye seguridad IA soberana en datos. La evidencia, los límites de despliegue y el etiquetado honesto son requisitos de producto.",
+      "heading": "Una empresa de ingeniería que construye seguridad IA soberana",
+      "subhead": "Sibernetick lo desarrolla un equipo que trata la evidencia, los límites de despliegue y el etiquetado honesto como requisitos de producto — no como marketing."
+    },
+    "contact": {
+      "title": "Contacto — Demo, piloto, inversor, alianza | Sibernetick",
+      "description": "Cuéntenos qué está evaluando. Elija la vía que coincide con su intención — demo, piloto, inversor o alianza — para que el equipo adecuado responda.",
+      "heading": "Cuéntenos qué está evaluando",
+      "subhead": "Los campos del formulario están definidos en la aplicación; esta página aporta la introducción. Elija la vía que corresponda para que el equipo adecuado responda."
+    },
+    "privacy": {
+      "title": "Política de privacidad | Sibernetick",
+      "description": "Cómo trata sibernetick.com los datos personales al navegar por el sitio o contactarnos: recopilación, fines, cesión, conservación y sus derechos.",
+      "heading": "Política de privacidad",
+      "subhead": "Cómo trata sibernetick.com los datos personales al navegar por el sitio o contactarnos."
+    },
+    "terms": {
+      "title": "Términos de uso | Sibernetick",
+      "description": "Las reglas para usar sibernetick.com y el contenido publicado en él, incluidas etiquetas de evidencia, uso aceptable y exención de responsabilidad.",
+      "heading": "Términos de uso",
+      "subhead": "Las reglas para usar sibernetick.com y el contenido publicado en él."
+    },
+    "cookies": {
+      "title": "Política de cookies | Sibernetick",
+      "description": "Qué almacena este sitio en su dispositivo y por qué: solo cookies esenciales por defecto, sin cookies publicitarias, sin rastreo entre sitios y sin venta de datos.",
+      "heading": "Política de cookies",
+      "subhead": "Qué almacena este sitio en su dispositivo y por qué."
+    },
+    "security": {
+      "title": "Seguridad y uso responsable | Sibernetick",
+      "description": "Cómo aseguramos este sitio, cómo reportar una vulnerabilidad y el límite de uso responsable de todo lo que publicamos.",
+      "heading": "Seguridad y uso responsable",
+      "subhead": "Cómo aseguramos este sitio, cómo reportar una vulnerabilidad y el límite de uso responsable de todo lo que publicamos."
+    },
+    "licenses": {
+      "title": "Licencias — Componentes abiertos y propietarios | Sibernetick",
+      "description": "Qué es abierto, bajo qué licencia (MIT O Apache-2.0) y qué permanece propietario bajo acuerdo comercial.",
+      "heading": "Licencias",
+      "subhead": "Qué es abierto, bajo qué licencia y qué permanece propietario."
+    }
+  },
+  "footer": {
+    "description": "Ciberseguridad empresarial soberana en datos y nativa de IA para banca, energía, telecomunicaciones y el sector público.",
+    "product": "Producto",
+    "company": "Empresa",
+    "legal": "Legal",
+    "community": "Comunidad / GitHub",
+    "links": {
+      "platform": "Plataforma",
+      "metrics": "Registro de métricas",
+      "opensource": "Código abierto",
+      "demo": "Solicitar demo",
+      "about": "Acerca de",
+      "contact": "Contacto",
+      "press": "Prensa e inversores",
+      "privacy": "Política de privacidad",
+      "terms": "Términos de uso",
+      "cookies": "Política de cookies",
+      "security": "Seguridad",
+      "licenses": "Licencias",
+      "repository": "Repositorio",
+      "issues": "Issues",
+      "releases": "Releases",
+      "communityPage": "Página de comunidad"
+    },
+    "legalLine": "© {year} Sibernetick. Todos los derechos reservados. Las etiquetas validadas en laboratorio se refieren a evidencia de prototipo en un entorno de laboratorio (fuente: i18n/observatory del producto, 2026-06).",
+    "tagline": "Destelle el repositorio si le resulta útil. Observe las versiones.",
+    "licenseBadge": "MIT OR Apache-2.0",
+    "built": "Landing abierta · doble licencia"
+  },
+  "form": {
+    "kicker": "Contacto",
+    "heading": "Solicite una demo, planifiquemos el piloto juntos.",
+    "lede": "Servicio empresarial, piloto técnico, alianza o conversación con inversores — descríbanos el contexto y lo dirigimos. Respondemos en dos días hábiles.",
+    "bullets": [
+      "Acceso a demo privada y informe de muestra",
+      "Evaluación de la arquitectura de despliegue soberano",
+      "Briefing para inversores y hoja de ruta",
+      "Tratamiento de datos conforme a GDPR / KVKK"
+    ],
+    "direct": "Directo:",
+    "routingNote": "Los mensajes se enrutan a través del dominio.",
+    "name": "Nombre completo",
+    "namePh": "Su nombre",
+    "email": "Correo electrónico",
+    "emailPh": "usted@empresa.com",
+    "companyLabel": "Organización",
+    "companyPh": "Nombre de la organización",
+    "phone": "Teléfono",
+    "phonePh": "+34 …",
+    "interest": "Tipo de solicitud",
+    "select": "Seleccione…",
+    "optDemo": "Demo / presentación privada",
+    "optPilot": "Piloto técnico",
+    "optEnterprise": "Solicitud de servicio empresarial",
+    "optInvestor": "Reunión con inversores",
+    "optPartner": "Alianza / colaboración",
+    "optOther": "Otro",
+    "message": "Mensaje",
+    "messagePh": "Describa brevemente su necesidad o pregunta…",
+    "note": "Los datos del formulario se procesan solo para responder a su solicitud. Retención conforme a GDPR / KVKK; nunca se comparten con terceros con fines de marketing.",
+    "required": "Complete los campos obligatorios.",
+    "invalidEmail": "Introduzca una dirección de correo válida.",
+    "success": "¡Gracias! Hemos recibido su solicitud — responderemos en breve.",
+    "error": "Algo salió mal. Inténtelo de nuevo.",
+    "submit": "Enviar"
+  },
+  "cta": {
+    "star": "Star",
+    "watch": "Watch",
+    "fork": "Fork",
+    "starLong": "Destellar el repo",
+    "watchLong": "Observar las versiones",
+    "forkLong": "Bifurcar y adaptar",
+    "issue": "Abrir un issue",
+    "pr": "Enviar una rama",
+    "viewGithub": "Ver en GitHub",
+    "getDemo": "Solicitar demo",
+    "readMetrics": "Leer el registro de métricas",
+    "contact": "Contacto",
+    "licenses": "Licencias",
+    "talkCommercial": "Hablar de un acuerdo comercial",
+    "bandTitle": "Evalúelo contra su entorno",
+    "bandBody": "Reserve una demo para sus equipos de seguridad y arquitectura, o lea primero el repositorio — ambas puertas están abiertas."
+  },
+  "common": {
+    "methodology": "Metodología",
+    "source": "Fuente",
+    "date": "Fecha",
+    "status": "Estado",
+    "notes": "Notas",
+    "label": "Etiqueta",
+    "value": "Valor",
+    "related": "Relacionado",
+    "effective": "Vigente desde",
+    "lastUpdated": "Última actualización",
+    "labValidated": "validado en laboratorio",
+    "roadmap": "hoja de ruta",
+    "prototype": "prototipo",
+    "open": "Abierto",
+    "private": "Privado",
+    "essential": "Esencial",
+    "optional": "Opcional",
+    "backHome": "Volver al inicio",
+    "pageNotFound": "Página no encontrada",
+    "pageNotFoundBody": "La página que busca no existe o se ha movido.",
+    "skip": "Saltar al contenido principal",
+    "allLocales": "Todos los idiomas"
+  }
+}

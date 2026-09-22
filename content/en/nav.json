@@ -1,0 +1,30 @@
+{
+  "site": "sibernetick",
+  "locale": "en",
+  "brand": {
+    "name": "Sibernetick",
+    "tagline": "Data-sovereign, AI-native enterprise cybersecurity",
+    "href": "/"
+  },
+  "items": [
+    { "id": "home", "label": "Home", "href": "/" },
+    { "id": "platform", "label": "Platform", "href": "/platform" },
+    { "id": "metrics", "label": "Metrics", "href": "/metrics" },
+    { "id": "open-source", "label": "Open Source", "href": "/open-source" },
+    { "id": "community", "label": "Community", "href": "/community" },
+    { "id": "company", "label": "Company", "href": "/company" },
+    { "id": "contact", "label": "Contact", "href": "/contact" }
+  ],
+  "actions": [
+    { "id": "github", "label": "GitHub", "href": "https://github.com/meviza/sibernetick-landing", "variant": "ghost" },
+    { "id": "demo", "label": "Get a demo", "href": "/contact", "variant": "primary" }
+  ],
+  "mobile": {
+    "openLabel": "Menu",
+    "closeLabel": "Close"
+  },
+  "localeSwitcher": {
+    "label": "Language",
+    "note": "Additional locales are tracked as a good-first-issue theme."
+  }
+}

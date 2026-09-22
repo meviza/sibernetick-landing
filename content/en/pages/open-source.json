@@ -1,0 +1,58 @@
+{
+  "site": "sibernetick",
+  "page": "open-source",
+  "locale": "en",
+  "header": {
+    "eyebrow": "Open source",
+    "headline": "Open landing, private product",
+    "subhead": "The code that runs this site is dual-licensed. The security product itself is commercial and stays private until you are under agreement."
+  },
+  "dualLicense": {
+    "title": "Dual license: MIT / Apache-2.0",
+    "body": "Choose the license that fits your organisation's policy. Both grants apply to the same public repository; you pick one when you use the code.",
+    "table": [
+      {
+        "license": "MIT",
+        "grant": "Permissive, minimal text, broad compatibility.",
+        "bestFor": "Individuals, prototypes, teams that want the lightest possible license header and are not policy-bound to patent clauses.",
+        "considerations": "No explicit patent grant. Attribution required."
+      },
+      {
+        "license": "Apache-2.0",
+        "grant": "Permissive with an explicit patent grant and clearer NOTICE obligations.",
+        "bestFor": "Companies and public-sector bodies whose legal review prefers an express patent grant and trademark/notice clarity.",
+        "considerations": "Slightly longer obligations (NOTICE, changes declaration). Attribution required."
+      }
+    ],
+    "whichForWhom": [
+      { "audience": "Developers & entrepreneurs", "recommendation": "MIT for fastest adoption; Apache-2.0 if your default corporate standard requires a patent grant." },
+      { "audience": "Enterprises & public sector", "recommendation": "Apache-2.0 is usually the simpler path through procurement." },
+      { "audience": "Investors & partners", "recommendation": "The dual grant shows the public surface is genuinely open; the product IP remains with the company." }
+    ]
+  },
+  "boundary": {
+    "title": "What is open and what is not",
+    "rows": [
+      { "scope": "Open", "item": "Landing site source (pages, components, styles, content schema)", "license": "MIT or Apache-2.0" },
+      { "scope": "Open", "item": "Content templates and metrics registry format", "license": "MIT or Apache-2.0" },
+      { "scope": "Open", "item": "Documentation and contribution guides in the landing repo", "license": "MIT or Apache-2.0" },
+      { "scope": "Private", "item": "Product application and management console", "license": "Proprietary — commercial agreement" },
+      { "scope": "Private", "item": "Agent runtime and orchestration engine", "license": "Proprietary — commercial agreement" },
+      { "scope": "Private", "item": "Detection logic, rulesets, and lab datasets", "license": "Proprietary — commercial agreement" }
+    ]
+  },
+  "commercial": {
+    "title": "Using the product commercially",
+    "body": "The open licenses cover the landing repository only. To deploy Sibernetick in your environment, run a pilot, or embed it in your service portfolio, you need a commercial agreement with us.",
+    "cta": { "label": "Talk to us about a commercial agreement", "href": "/contact" }
+  },
+  "earlyAccess": {
+    "title": "Early access",
+    "body": "Design partners evaluate the product under agreement before general availability. Early access includes direct engineering contact and influence over the roadmap.",
+    "status": "roadmap"
+  },
+  "ctaBand": {
+    "primaryCta": { "label": "View on GitHub", "href": "https://github.com/meviza/sibernetick-landing" },
+    "secondaryCta": { "label": "Get a demo", "href": "/contact" }
+  }
+}

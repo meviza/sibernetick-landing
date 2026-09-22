@@ -1,0 +1,64 @@
+{
+  "site": "sibernetick",
+  "page": "terms",
+  "locale": "en",
+  "header": {
+    "eyebrow": "Legal",
+    "headline": "Terms of use",
+    "subhead": "The rules for using sibernetick.com and the content published on it."
+  },
+  "effectiveDate": "2026-06",
+  "lastUpdated": "2026-06",
+  "sections": [
+    {
+      "id": "acceptance",
+      "title": "Acceptance",
+      "body": "By using this website you agree to these terms. If you do not agree, do not use the site. Separate commercial terms govern any product engagement; those agreements take precedence over these website terms."
+    },
+    {
+      "id": "site-content",
+      "title": "Site content",
+      "body": "Text, design, and code on the landing repository are provided under the licenses stated on the Licenses page. Product names, logos, and non-open components remain the property of their owners."
+    },
+    {
+      "id": "evidence-labels",
+      "title": "Evidence labels",
+      "body": "Statements marked lab-validated refer to prototype evidence from a lab environment (source: product i18n/observatory, 2026-06) and are not production guarantees. Roadmap items describe intent, not commitments. Metrics are published only with methodology, source, date, and status."
+    },
+    {
+      "id": "acceptable-use",
+      "title": "Acceptable use",
+      "bullets": [
+        "No unlawful, harmful, or deceptive use of the site.",
+        "No scraping that degrades availability, and no bypassing access controls.",
+        "No use of site content to present unverified claims about the product or third parties.",
+        "No reproduction of trademarks in a way that implies endorsement."
+      ]
+    },
+    {
+      "id": "disclaimer",
+      "title": "Disclaimer",
+      "body": "The website is provided \"as is\" without warranties of any kind, to the extent permitted by law. Content is provided for general information; it is not security, legal, or investment advice, and it does not create a contractual obligation regarding product availability."
+    },
+    {
+      "id": "liability",
+      "title": "Limitation of liability",
+      "body": "To the extent permitted by law, the operator is not liable for indirect or consequential damages arising from use of the site. Nothing in these terms limits liability that cannot be limited by law."
+    },
+    {
+      "id": "links",
+      "title": "Third-party links",
+      "body": "Links to GitHub and other third-party services are provided for convenience. Those services operate under their own terms and privacy policies."
+    },
+    {
+      "id": "changes",
+      "title": "Changes & contact",
+      "body": "We may update these terms; the date at the top reflects the latest revision. Questions go through the contact page."
+    }
+  ],
+  "related": [
+    { "label": "Privacy policy", "href": "/privacy" },
+    { "label": "Licenses", "href": "/licenses" },
+    { "label": "Security", "href": "/security" }
+  ]
+}

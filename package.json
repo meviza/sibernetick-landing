@@ -1,0 +1,26 @@
+{
+  "name": "sibernetick-landing",
+  "version": "0.1.0",
+  "description": "Open-source landing site for Sibernetick — data-sovereign enterprise cybersecurity.",
+  "license": "MIT OR Apache-2.0",
+  "private": false,
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meviza/sibernetick-landing.git"
+  },
+  "homepage": "https://sibernetick.com",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "npm run build && wrangler dev",
+    "preview": "npm run build && wrangler dev",
+    "deploy": "wrangler deploy",
+    "check": "node scripts/build.mjs"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

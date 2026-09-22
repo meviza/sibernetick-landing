@@ -1,0 +1,231 @@
+{
+  "code": "en",
+  "name": "English",
+  "dir": "ltr",
+  "ogLocale": "en_US",
+  "site": {
+    "name": "Sibernetick",
+    "tagline": "Data-sovereign, AI-native enterprise cybersecurity",
+    "email": "hello@sibernetick.com",
+    "description": "Sibernetick is a data-sovereign, AI-native enterprise cybersecurity platform: security agents that operate inside the customer perimeter, with human-approved remediation and lab-validated evidence."
+  },
+  "nav": {
+    "home": "Home",
+    "platform": "Platform",
+    "metrics": "Metrics",
+    "community": "Community",
+    "opensource": "Open Source",
+    "company": "Company",
+    "contact": "Contact",
+    "github": "GitHub",
+    "demo": "Get a demo",
+    "menu": "Menu",
+    "close": "Close",
+    "language": "Language",
+    "skip": "Skip to content"
+  },
+  "hero": {
+    "badge": "Data-sovereign · AI-native",
+    "eyebrow": "Data-sovereign, AI-native enterprise cybersecurity",
+    "title": "Security agents that operate inside your perimeter.",
+    "subtitle": "Sibernetick coordinates a team of AI agents across your environment, verifies what they find, and proposes remediation your team approves before anything changes. Deployed in your infrastructure. Evidence from the lab, stated as lab evidence.",
+    "primaryCta": "Get a demo",
+    "secondaryCta": "View on GitHub",
+    "trust": [
+      "Sovereign / on-prem deployment",
+      "Human-approved remediation",
+      "Least-privilege by design",
+      "Enterprise readiness"
+    ]
+  },
+  "pages": {
+    "index": {
+      "title": "Sibernetick — Data-sovereign enterprise cybersecurity",
+      "description": "AI security agents that operate inside your perimeter. Sovereign deployment, human-approved remediation, lab-validated evidence. Request a demo or pilot.",
+      "heading": "Security agents that operate inside your perimeter.",
+      "subhead": "Sibernetick coordinates a team of AI agents across your environment, verifies what they find, and proposes remediation your team approves before anything changes."
+    },
+    "platform": {
+      "title": "Platform — Architecture for controlled autonomy | Sibernetick",
+      "description": "A coordination layer, six specialised agents, local intelligence, and a human approval gate. Every capability labelled lab-validated prototype or roadmap.",
+      "heading": "Architecture built for controlled autonomy",
+      "subhead": "A coordination layer, six specialised agents, local intelligence, and an approval gate between proposal and change. Every capability below is labelled: lab-validated prototype, or roadmap."
+    },
+    "metrics": {
+      "title": "Metrics registry — Every number with its evidence | Sibernetick",
+      "description": "Every published number carries methodology, source, date, and status. Lab-validated prototype evidence from the product i18n/observatory, 2026-06.",
+      "heading": "Every number, with its evidence attached",
+      "subhead": "Methodology, source, date, and status are mandatory. Nothing here is published without them."
+    },
+    "community": {
+      "title": "Community — Built in the open, reviewed in the open | Sibernetick",
+      "description": "The landing site is public. Star, watch, fork, open an issue or ship a branch — content, locale, accessibility and documentation contributions are reviewed like code.",
+      "heading": "Built in the open, reviewed in the open",
+      "subhead": "The landing site is public. Contributions to content, locale, accessibility, and documentation are welcome and reviewed like code."
+    },
+    "open-source": {
+      "title": "Open source — Open landing, private product | Sibernetick",
+      "description": "The landing repository is dual-licensed MIT OR Apache-2.0. The security product itself is commercial and stays private until you are under agreement.",
+      "heading": "Open landing, private product",
+      "subhead": "The code that runs this site is dual-licensed. The security product itself is commercial and stays private until you are under agreement."
+    },
+    "company": {
+      "title": "Company — Sovereign AI security, engineered honestly | Sibernetick",
+      "description": "Sibernetick is an engineering company building data-sovereign AI security. Evidence, deployment boundaries, and honest labelling are product requirements.",
+      "heading": "An engineering company building sovereign AI security",
+      "subhead": "Sibernetick is developed by a team that treats evidence, deployment boundaries, and honest labelling as product requirements — not marketing."
+    },
+    "contact": {
+      "title": "Contact — Demo, pilot, investor, partnership | Sibernetick",
+      "description": "Tell us what you are evaluating. Choose the track that matches your intent — demo, pilot, investor, or partnership — so the right team replies.",
+      "heading": "Tell us what you are evaluating",
+      "subhead": "Form labels are already defined in the application; this page provides the introduction around them. Choose the track that matches your intent so the right team replies."
+    },
+    "privacy": {
+      "title": "Privacy policy | Sibernetick",
+      "description": "How sibernetick.com handles personal data when you browse the site or contact us: collection, purposes, sharing, retention, and your rights.",
+      "heading": "Privacy policy",
+      "subhead": "How sibernetick.com handles personal data when you browse the site or contact us."
+    },
+    "terms": {
+      "title": "Terms of use | Sibernetick",
+      "description": "The rules for using sibernetick.com and the content published on it, including evidence labels, acceptable use, and disclaimers.",
+      "heading": "Terms of use",
+      "subhead": "The rules for using sibernetick.com and the content published on it."
+    },
+    "cookies": {
+      "title": "Cookie policy | Sibernetick",
+      "description": "What this site stores on your device and why: essential cookies only by default, no advertising cookies, no cross-site tracking, no data sale.",
+      "heading": "Cookie policy",
+      "subhead": "What this site stores on your device and why."
+    },
+    "security": {
+      "title": "Security & responsible use | Sibernetick",
+      "description": "How we secure this site, how to report a vulnerability privately, and the responsible-use boundary for anything we publish.",
+      "heading": "Security & responsible use",
+      "subhead": "How we secure this site, how to report a vulnerability, and the responsible-use boundary for anything we publish."
+    },
+    "licenses": {
+      "title": "Licenses — Open and proprietary components | Sibernetick",
+      "description": "What is open, under which license (MIT OR Apache-2.0), and what remains proprietary under commercial agreement.",
+      "heading": "Licenses",
+      "subhead": "What is open, under which license, and what remains proprietary."
+    }
+  },
+  "footer": {
+    "description": "Data-sovereign, AI-native enterprise cybersecurity for banks, energy, telecom, and the public sector.",
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "community": "Community / GitHub",
+    "links": {
+      "platform": "Platform",
+      "metrics": "Metrics registry",
+      "opensource": "Open source",
+      "demo": "Get a demo",
+      "about": "About",
+      "contact": "Contact",
+      "press": "Press & investors",
+      "privacy": "Privacy policy",
+      "terms": "Terms of use",
+      "cookies": "Cookie policy",
+      "security": "Security",
+      "licenses": "Licenses",
+      "repository": "Repository",
+      "issues": "Issues",
+      "releases": "Releases",
+      "communityPage": "Community page"
+    },
+    "legalLine": "© {year} Sibernetick. All rights reserved. Lab-validated labels refer to prototype evidence in a lab environment (source: product i18n/observatory, 2026-06).",
+    "tagline": "Star the repo if it helps. Watch for releases.",
+    "licenseBadge": "MIT OR Apache-2.0",
+    "built": "Open landing site · dual-licensed"
+  },
+  "form": {
+    "kicker": "Contact",
+    "heading": "Request a demo, plan a pilot together.",
+    "lede": "Enterprise service, technical pilot, partnership, or investor conversation — tell us the context and we route it. We reply within two business days.",
+    "bullets": [
+      "Closed demo and sample report access",
+      "Sovereign deployment architecture review",
+      "Investor briefing and roadmap",
+      "GDPR / KVKK-aware data handling"
+    ],
+    "direct": "Direct:",
+    "routingNote": "Messages are routed via the domain.",
+    "name": "Full name",
+    "namePh": "Your name",
+    "email": "Email",
+    "emailPh": "you@company.com",
+    "companyLabel": "Organization",
+    "companyPh": "Organization name",
+    "phone": "Phone",
+    "phonePh": "+1 …",
+    "interest": "Request type",
+    "select": "Select…",
+    "optDemo": "Demo / private briefing",
+    "optPilot": "Technical pilot",
+    "optEnterprise": "Enterprise service request",
+    "optInvestor": "Investor meeting",
+    "optPartner": "Partnership / collaboration",
+    "optOther": "Other",
+    "message": "Message",
+    "messagePh": "Briefly describe your need or question…",
+    "note": "Form data is processed only to respond to your request. GDPR / KVKK-compliant retention; never shared with third parties for marketing.",
+    "required": "Please fill in the required fields.",
+    "invalidEmail": "Please enter a valid email address.",
+    "success": "Thank you! Your request has been received — we will reply shortly.",
+    "error": "Something went wrong. Please try again.",
+    "submit": "Send"
+  },
+  "cta": {
+    "star": "Star",
+    "watch": "Watch",
+    "fork": "Fork",
+    "starLong": "Star the repo",
+    "watchLong": "Watch for releases",
+    "forkLong": "Fork and adapt",
+    "issue": "Open an issue",
+    "pr": "Ship a branch",
+    "viewGithub": "View on GitHub",
+    "getDemo": "Get a demo",
+    "readMetrics": "Read the metrics registry",
+    "contact": "Contact",
+    "licenses": "Licenses",
+    "talkCommercial": "Discuss a commercial agreement",
+    "bandTitle": "See it against your environment",
+    "bandBody": "Book a demo for your security and architecture team, or read the landing repository first — both doors are open."
+  },
+  "common": {
+    "methodology": "Methodology",
+    "source": "Source",
+    "date": "Date",
+    "status": "Status",
+    "notes": "Notes",
+    "label": "Label",
+    "value": "Value",
+    "related": "Related",
+    "effective": "Effective",
+    "lastUpdated": "Last updated",
+    "labValidated": "lab-validated",
+    "roadmap": "roadmap",
+    "prototype": "prototype",
+    "open": "Open",
+    "private": "Private",
+    "essential": "Essential",
+    "optional": "Optional",
+    "backHome": "Back to home",
+    "pageNotFound": "Page not found",
+    "pageNotFoundBody": "The page you are looking for does not exist or has moved.",
+    "skip": "Skip to main content",
+    "allLocales": "All languages"
+  },
+  "metrics": [
+    { "value": "92%", "label": "Telemetry coverage", "status": "lab-validated" },
+    { "value": "1,430", "label": "Daily verified signals", "status": "lab-validated" },
+    { "value": "+8 points", "label": "Posture improvement", "status": "lab-validated" },
+    { "value": "4 min", "label": "Mean validation time", "status": "lab-validated" },
+    { "value": "6", "label": "Specialised agents", "status": "prototype" },
+    { "value": "planned", "label": "Expanded connector catalogue", "status": "roadmap" }
+  ]
+}

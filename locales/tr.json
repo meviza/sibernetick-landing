@@ -1,0 +1,221 @@
+{
+  "code": "tr",
+  "name": "Türkçe",
+  "dir": "ltr",
+  "ogLocale": "tr_TR",
+  "site": {
+    "tagline": "Veri egemen, yapay zekâ yerel kurumsal siber güvenlik",
+    "description": "Sibernetick; veri egemen, yapay zekâ yerel bir kurumsal siber güvenlik platformudur: yetki alanınızda çalışan güvenlik ajanları, insan onaylı iyileştirme ve laboratuvar doğrulamalı kanıt."
+  },
+  "nav": {
+    "home": "Ana sayfa",
+    "platform": "Platform",
+    "metrics": "Metrikler",
+    "community": "Topluluk",
+    "opensource": "Açık kaynak",
+    "company": "Şirket",
+    "contact": "İletişim",
+    "github": "GitHub",
+    "demo": "Demo al",
+    "menu": "Menü",
+    "close": "Kapat",
+    "language": "Dil",
+    "skip": "İçeriğe atla"
+  },
+  "hero": {
+    "badge": "Veri egemen · Yapay zekâ yerel",
+    "eyebrow": "Veri egemen, yapay zekâ yerel kurumsal siber güvenlik",
+    "title": "Yetki alanınızda çalışan güvenlik ajanları.",
+    "subtitle": "Sibernetick, ortamınız boyunca bir yapay zekâ ajanı ekibini koordine eder, bulduklarını doğrular ve bir şey değişmeden önce ekibinizin onayladığı iyileştirmeler önerir. Altyapınızda konuşlandırılır. Laboratuvar kanıtı, laboratuvar kanıtı olarak sunulur.",
+    "primaryCta": "Demo al",
+    "secondaryCta": "GitHub'ı incele",
+    "trust": [
+      "Egemen / yerinde dağıtım",
+      "İnsan onaylı iyileştirme",
+      "Tasarım gereği en az yetki",
+      "Kurumsal hazırlık"
+    ]
+  },
+  "pages": {
+    "index": {
+      "title": "Sibernetick — Veri egemen kurumsal siber güvenlik",
+      "description": "Yetki alanınızda çalışan yapay zekâ güvenlik ajanları. Egemen dağıtım, insan onaylı iyileştirme, laboratuvar doğrulamalı kanıt. Demo veya pilot talep edin.",
+      "heading": "Yetki alanınızda çalışan güvenlik ajanları.",
+      "subhead": "Sibernetick, ortamınız boyunca bir yapay zekâ ajanı ekibini koordine eder, bulduklarını doğrular ve bir şey değişmeden önce ekibinizin onayladığı iyileştirmeler önerir."
+    },
+    "platform": {
+      "title": "Platform — Kontrollü otonomi için mimari | Sibernetick",
+      "description": "Koordinasyon katmanı, altı uzman ajan, yerel zekâ ve öneri ile değişim arasına konan insan onay kapısı. Her yetenek laboratuvar doğrulamalı prototip veya yol haritası olarak etiketlenir.",
+      "heading": "Kontrollü otonomi için tasarlanmış mimari",
+      "subhead": "Koordinasyon katmanı, altı uzman ajan, yerel zekâ ve öneri ile değişim arasına yerleştirilmiş bir onay kapısı. Aşağıdaki her yetenek etiketlidir: laboratuvar doğrulamalı prototip veya yol haritası."
+    },
+    "metrics": {
+      "title": "Metrik kaydı — Her sayı kanıtıyla | Sibernetick",
+      "description": "Yayımlanan her sayı yöntem, kaynak, tarih ve durum taşır. 2026-06 ürün i18n/observatory laboratuvar ortamı prototip kanıtı.",
+      "heading": "Her sayı, kanıtıyla birlikte",
+      "subhead": "Yöntem, kaynak, tarih ve durum zorunludur. Buradaki hiçbir şey bunlar olmadan yayımlanmaz."
+    },
+    "community": {
+      "title": "Topluluk — Açıkta geliştirilir, açıkta incelenir | Sibernetick",
+      "description": "Açılış sitesi herkese açıktır. Yıldız verin, izleyin, çatallayın, issue açın veya branch gönderin — içerik, yerelleştirme, erişilebilirlik ve dokümantasyon katkıları kod gibi incelenir.",
+      "heading": "Açıkta geliştirilir, açıkta incelenir",
+      "subhead": "Açılış sitesi herkese açıktır. İçerik, yerelleştirme, erişilebilirlik ve dokümantasyon katkıları memnuniyetle karşılanır ve kod gibi incelenir."
+    },
+    "open-source": {
+      "title": "Açık kaynak — Açık açılış, özel ürün | Sibernetick",
+      "description": "Depo MIT VEYA Apache-2.0 ile çift lisanslıdır. Güvenlik ürünü ticaridir ve anlaşma altına girene kadar gizli kalır.",
+      "heading": "Açık açılış, özel ürün",
+      "subhead": "Bu siteyi çalıştıran kod çift lisanslıdır. Güvenlik ürününün kendisi ticaridir ve anlaşma altına girene kadar gizli kalır."
+    },
+    "company": {
+      "title": "Şirket — Egemen yapay zekâ güvenliği, dürüst mühendislikle | Sibernetick",
+      "description": "Sibernetick, veri egemen yapay zekâ güvenliği inşa eden bir mühendislik şirketidir. Kanıt, dağıtım sınırları ve dürüst etiketleme ürün gereksinimleridir.",
+      "heading": "Egemen yapay zekâ güvenliği inşa eden mühendislik şirketi",
+      "subhead": "Sibernetick; kanıtı, dağıtım sınırlarını ve dürüst etiketlemeyi pazarlama değil ürün gereksinimi olarak ele alan bir ekip tarafından geliştirilir."
+    },
+    "contact": {
+      "title": "İletişim — Demo, pilot, yatırımcı, ortaklık | Sibernetick",
+      "description": "Değerlendirdiğiniz şeyi anlatın. Niyetinize uygun yolu seçin — demo, pilot, yatırımcı veya ortaklık — doğru ekip yanıtlasın.",
+      "heading": "Değerlendirdiğiniz şeyi anlatın",
+      "subhead": "Form alanları uygulamada tanımlıdır; bu sayfa etrafındaki girişi sağlar. Doğru ekibin yanıtlaması için niyetinize uygun yolu seçin."
+    },
+    "privacy": {
+      "title": "Gizlilik politikası | Sibernetick",
+      "description": "sibernetick.com siteye göz atarken veya bize ulaştığında kişisel verileri nasıl işler: toplama, amaçlar, paylaşım, saklama ve haklarınız.",
+      "heading": "Gizlilik politikası",
+      "subhead": "sibernetick.com siteye göz atarken veya bize ulaştığında kişisel verileri nasıl işlediği."
+    },
+    "terms": {
+      "title": "Kullanım koşulları | Sibernetick",
+      "description": "sibernetick.com'u ve üzerinde yayımlanan içeriği kullanma kuralları: kanıt etiketleri, kabul edilebilir kullanım ve sorumluluk reddi.",
+      "heading": "Kullanım koşulları",
+      "subhead": "sibernetick.com'u ve üzerinde yayımlanan içeriği kullanma kuralları."
+    },
+    "cookies": {
+      "title": "Çerez politikası | Sibernetick",
+      "description": "Bu site cihazınızda ne saklar ve neden: varsayılan yalnızca zorunlu çerezler; reklam çerezleri, çapraz site izleme ve veri satışı yok.",
+      "heading": "Çerez politikası",
+      "subhead": "Bu site cihazınızda ne saklar ve neden."
+    },
+    "security": {
+      "title": "Güvenlik ve sorumlu kullanım | Sibernetick",
+      "description": "Bu siteyi nasıl güvenceye alırız, zafiyet nasıl bildirilir ve yayımladığımız her şeyin sorumlu kullanım sınırı.",
+      "heading": "Güvenlik ve sorumlu kullanım",
+      "subhead": "Bu siteyi nasıl güvenceye alırız, bir zafiyet nasıl bildirilir ve yayımladığımız her şeyin sorumlu kullanım sınırı."
+    },
+    "licenses": {
+      "title": "Lisanslar — Açık ve özel bileşenler | Sibernetick",
+      "description": "Neler açıktır, hangi lisansla (MIT VEYA Apache-2.0) ve neler ticari anlaşma kapsamında özel kalır.",
+      "heading": "Lisanslar",
+      "subhead": "Neler açık, hangi lisansla ve neler özel kalır."
+    }
+  },
+  "footer": {
+    "description": "Bankalar, enerji, telekom ve kamu sektörü için veri egemen, yapay zekâ yerel kurumsal siber güvenlik.",
+    "product": "Ürün",
+    "company": "Şirket",
+    "legal": "Yasal",
+    "community": "Topluluk / GitHub",
+    "links": {
+      "platform": "Platform",
+      "metrics": "Metrik kaydı",
+      "opensource": "Açık kaynak",
+      "demo": "Demo al",
+      "about": "Hakkımızda",
+      "contact": "İletişim",
+      "press": "Basın ve yatırımcılar",
+      "privacy": "Gizlilik politikası",
+      "terms": "Kullanım koşulları",
+      "cookies": "Çerez politikası",
+      "security": "Güvenlik",
+      "licenses": "Lisanslar",
+      "repository": "Depo",
+      "issues": "Issue'lar",
+      "releases": "Sürümler",
+      "communityPage": "Topluluk sayfası"
+    },
+    "legalLine": "© {year} Sibernetick. Tüm hakları saklıdır. Laboratuvar doğrulamalı etiketleri, laboratuvar ortamındaki prototip kanıtına atıfta bulunur (kaynak: ürün i18n/observatory, 2026-06).",
+    "tagline": "İşinize yararsa depoya yıldız verin. Sürümleri izleyin.",
+    "licenseBadge": "MIT OR Apache-2.0",
+    "built": "Açık açılış sitesi · çift lisanslı"
+  },
+  "form": {
+    "kicker": "İletişim",
+    "heading": "Demo talep edin, pilotu birlikte planlayalım.",
+    "lede": "Kurumsal hizmet, teknik pilot, ortaklık veya yatırımcı görüşmesi — bağlamı yazın, biz yönlendirelim. İki iş günü içinde dönüş yapıyoruz.",
+    "bullets": [
+      "Kapalı demo ve örnek rapor erişimi",
+      "Egemen dağıtım mimarisi değerlendirmesi",
+      "Yatırımcı brifingi ve yol haritası",
+      "GDPR / KVKK uyumlu veri işleme"
+    ],
+    "direct": "Doğrudan:",
+    "routingNote": "Mesajlarınız alan adı üzerinden yönlendirilir.",
+    "name": "Ad Soyad",
+    "namePh": "Adınız",
+    "email": "E-posta",
+    "emailPh": "ad@sirket.com",
+    "companyLabel": "Kurum / Şirket",
+    "companyPh": "Kurum adı",
+    "phone": "Telefon",
+    "phonePh": "+90 …",
+    "interest": "Talep türü",
+    "select": "Seçiniz…",
+    "optDemo": "Demo / kapalı sunum",
+    "optPilot": "Teknik pilot",
+    "optEnterprise": "Kurumsal hizmet talebi",
+    "optInvestor": "Yatırımcı görüşmesi",
+    "optPartner": "Ortaklık / iş birliği",
+    "optOther": "Diğer",
+    "message": "Mesaj",
+    "messagePh": "Kısaca ihtiyacınızı veya sorunuzu yazın…",
+    "note": "Form verileri yalnızca talebinize dönüş için işlenir. GDPR / KVKK uyumlu saklama; üçüncü taraflarla pazarlama amacıyla paylaşılmaz.",
+    "required": "Lütfen zorunlu alanları doldurun.",
+    "invalidEmail": "Geçerli bir e-posta adresi girin.",
+    "success": "Teşekkürler! Talebiniz alındı — en kısa sürede dönüş yapacağız.",
+    "error": "Bir hata oluştu. Lütfen tekrar deneyin.",
+    "submit": "Gönder"
+  },
+  "cta": {
+    "star": "Yıldız",
+    "watch": "İzle",
+    "fork": "Çatallandır",
+    "starLong": "Depoya yıldız verin",
+    "watchLong": "Sürümleri izleyin",
+    "forkLong": "Çatallayın ve uyarlayın",
+    "issue": "Issue açın",
+    "pr": "Branch gönderin",
+    "viewGithub": "GitHub'da görüntüle",
+    "getDemo": "Demo al",
+    "readMetrics": "Metrik kaydını oku",
+    "contact": "İletişim",
+    "licenses": "Lisanslar",
+    "talkCommercial": "Ticari anlaşma görüşmesi",
+    "bandTitle": "Ortamınıza karşı değerlendirin",
+    "bandBody": "Güvenlik ve mimari ekibiniz için demo planlayın veya önce açılış deposunu okuyun — her iki kapı da açık."
+  },
+  "common": {
+    "methodology": "Yöntem",
+    "source": "Kaynak",
+    "date": "Tarih",
+    "status": "Durum",
+    "notes": "Notlar",
+    "label": "Etiket",
+    "value": "Değer",
+    "related": "İlgili",
+    "effective": "Yürürlük",
+    "lastUpdated": "Son güncelleme",
+    "labValidated": "laboratuvar doğrulamalı",
+    "roadmap": "yol haritası",
+    "prototype": "prototip",
+    "open": "Açık",
+    "private": "Özel",
+    "essential": "Zorunlu",
+    "optional": "İsteğe bağlı",
+    "backHome": "Ana sayfaya dön",
+    "pageNotFound": "Sayfa bulunamadı",
+    "pageNotFoundBody": "Aradığınız sayfa mevcut değil veya taşınmış.",
+    "skip": "Ana içeriğe atla",
+    "allLocales": "Tüm diller"
+  }
+}

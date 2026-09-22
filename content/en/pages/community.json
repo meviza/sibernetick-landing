@@ -1,0 +1,58 @@
+{
+  "site": "sibernetick",
+  "page": "community",
+  "locale": "en",
+  "header": {
+    "eyebrow": "Community",
+    "headline": "Built in the open, reviewed in the open",
+    "subhead": "The landing site is public. Contributions to content, locale, accessibility, and documentation are welcome and reviewed like code."
+  },
+  "tone": "Star the repo if it helps. Watch for releases. Open an issue or ship a branch — we review.",
+  "ctas": [
+    { "id": "star", "label": "Star the repo", "body": "If the project is relevant to your work, a star helps others find it.", "href": "https://github.com/meviza/sibernetick-landing" },
+    { "id": "watch", "label": "Watch for releases", "body": "Release notes ship with every content and design update.", "href": "https://github.com/meviza/sibernetick-landing/releases" },
+    { "id": "fork", "label": "Fork and adapt", "body": "Dual-licensed MIT / Apache-2.0. Fork it for your own landing work.", "href": "https://github.com/meviza/sibernetick-landing/fork" },
+    { "id": "issue", "label": "Open an issue", "body": "Bugs, content errors, metric inconsistencies, and feature requests.", "href": "https://github.com/meviza/sibernetick-landing/issues" },
+    { "id": "pr", "label": "Ship a branch", "body": "Pull requests are reviewed. Include rationale and, for content, sources.", "href": "https://github.com/meviza/sibernetick-landing/pulls" }
+  ],
+  "goodFirstIssues": {
+    "title": "Good first issues",
+    "note": "Themes we keep open for new contributors.",
+    "items": [
+      {
+        "id": "add-locale",
+        "title": "Add a locale",
+        "body": "Translate page content under `_content/` into a new language and wire nav/footer labels."
+      },
+      {
+        "id": "improve-animation",
+        "title": "Improve animation",
+        "body": "Refine section transitions and scroll reveals while respecting `prefers-reduced-motion`."
+      },
+      {
+        "id": "fix-seo",
+        "title": "Fix SEO",
+        "body": "Metadata, Open Graph tags, sitemap entries, and structured data for landing pages."
+      },
+      {
+        "id": "write-case-study",
+        "title": "Write a case study",
+        "body": "Draft a deployment story. Case studies must cite methodology, source, date, and status for any number used."
+      }
+    ]
+  },
+  "codeOfConduct": {
+    "title": "Code of conduct",
+    "body": "Be precise, be respectful, cite sources. Disagreement is fine; harassment, bad-faith edits, and unverified claims in published content are not. Reports go to the maintainers via the repository's contact channel and are handled privately.",
+    "link": { "label": "Read the code of conduct", "href": "https://github.com/meviza/sibernetick-landing/blob/main/CODE_OF_CONDUCT.md" }
+  },
+  "contributionRules": [
+    "Numbers require methodology + source + date + status (see METRICS_POLICY.md).",
+    "Copy avoids weaponised language and unverified competitive claims.",
+    "Lab-validated, prototype, roadmap, and early access are used precisely."
+  ],
+  "ctaBand": {
+    "primaryCta": { "label": "View on GitHub", "href": "https://github.com/meviza/sibernetick-landing" },
+    "secondaryCta": { "label": "Get a demo", "href": "/contact" }
+  }
+}

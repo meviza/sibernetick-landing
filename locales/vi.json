@@ -1,0 +1,221 @@
+{
+  "code": "vi",
+  "name": "Tiếng Việt",
+  "dir": "ltr",
+  "ogLocale": "vi_VN",
+  "site": {
+    "tagline": "An ninh mạng doanh nghiệp có chủ quyền dữ liệu, gốc AI",
+    "description": "Sibernetick là nền tảng an ninh mạng doanh nghiệp có chủ quyền dữ liệu và gốc AI: các tác vụ an ninh hoạt động bên trong biên của bạn, việc khắc phục do con người phê duyệt, bằng chứng được kiểm chứng trong phòng thí nghiệm."
+  },
+  "nav": {
+    "home": "Trang chủ",
+    "platform": "Nền tảng",
+    "metrics": "Chỉ số",
+    "community": "Cộng đồng",
+    "opensource": "Mã nguồn mở",
+    "company": "Công ty",
+    "contact": "Liên hệ",
+    "github": "GitHub",
+    "demo": "Yêu cầu demo",
+    "menu": "Menu",
+    "close": "Đóng",
+    "language": "Ngôn ngữ",
+    "skip": "Bỏ qua đến nội dung"
+  },
+  "hero": {
+    "badge": "Chủ quyền dữ liệu · Gốc AI",
+    "eyebrow": "An ninh mạng doanh nghiệp có chủ quyền dữ liệu, gốc AI",
+    "title": "Các đại lý an ninh hoạt động bên trong biên của bạn.",
+    "subtitle": "Sibernetick điều phối một nhóm đại lý AI trên môi trường của bạn, xác minh những gì chúng tìm thấy và đề xuất khắc phục mà đội của bạn phê duyệt trước khi bất cứ điều gì thay đổi. Triển khai trong hạ tầng của bạn. Bằng chứng từ phòng thí nghiệm, được ghi rõ như vậy.",
+    "primaryCta": "Yêu cầu demo",
+    "secondaryCta": "Xem trên GitHub",
+    "trust": [
+      "Triển khai có chủ quyền / on-premise",
+      "Khắc phục được con người phê duyệt",
+      "Quyền tối thiểu từ thiết kế",
+      "Sẵn sàng cho doanh nghiệp"
+    ]
+  },
+  "pages": {
+    "index": {
+      "title": "Sibernetick — An ninh mạng doanh nghiệp có chủ quyền dữ liệu",
+      "description": "Các đại lý AI an ninh hoạt động bên trong biên của bạn. Triển khai có chủ quyền, khắc phục được con người phê duyệt, bằng chứng kiểm chứng trong phòng thí nghiệm. Yêu cầu demo hoặc thí điểm.",
+      "heading": "Các đại lý an ninh hoạt động bên trong biên của bạn.",
+      "subhead": "Sibernetick điều phối một nhóm đại lý AI trên môi trường của bạn, xác minh những gì chúng tìm thấy và đề xuất khắc phục mà đội của bạn phê duyệt trước khi bất cứ điều gì thay đổi."
+    },
+    "platform": {
+      "title": "Nền tảng — Kiến trúc cho tự chủ có kiểm soát | Sibernetick",
+      "description": "Một lớp điều phối, sáu đại lý chuyên biệt, trí tuệ cục bộ và cổng phê duyệt giữa đề xuất và thay đổi. Mỗi khả năng được gắn nhãn nguyên mẫu kiểm chứng trong phòng thí nghiệm hoặc lộ trình.",
+      "heading": "Kiến trúc được xây dựng cho tự chủ có kiểm soát",
+      "subhead": "Một lớp điều phối, sáu đại lý chuyên biệt, trí tuệ cục bộ và cổng phê duyệt giữa đề xuất và thay đổi. Mỗi khả năng bên dưới đều được gắn nhãn: nguyên mẫu kiểm chứng trong phòng thí nghiệm, hoặc lộ trình."
+    },
+    "metrics": {
+      "title": "Sổ đăng ký chỉ số — Mỗi con số kèm bằng chứng | Sibernetick",
+      "description": "Mỗi con số công bố đều kèm phương pháp, nguồn, ngày và trạng thái. Bằng chứng nguyên mẫu kiểm chứng trong phòng thí nghiệm từ product i18n/observatory, 2026-06.",
+      "heading": "Mỗi con số, kèm bằng chứng",
+      "subhead": "Phương pháp, nguồn, ngày và trạng thái là bắt buộc. Không có gì được xuất bản ở đây nếu thiếu chúng."
+    },
+    "community": {
+      "title": "Cộng đồng — Xây dựng công khai, đánh giá công khai | Sibernetick",
+      "description": "Trang landing là công khai. Star, watch, fork, mở issue hoặc gửi nhánh — đóng góp về nội dung, ngôn ngữ, khả năng tiếp cận và tài liệu được đánh giá như mã.",
+      "heading": "Xây dựng công khai, đánh giá công khai",
+      "subhead": "Trang landing là công khai. Đóng góp về nội dung, ngôn ngữ, khả năng tiếp cận và tài liệu được hoan nghênh và đánh giá như mã."
+    },
+    "open-source": {
+      "title": "Mã nguồn mở — Landing mở, sản phẩm riêng tư | Sibernetick",
+      "description": "Kho lưu trữ landing được cấp phép kép MIT HOẶC Apache-2.0. Bản thân sản phẩm an ninh là thương mại và vẫn riêng tư cho đến khi có thỏa thuận.",
+      "heading": "Landing mở, sản phẩm riêng tư",
+      "subhead": "Mã chạy trang này được cấp phép kép. Bản thân sản phẩm an ninh là thương mại và vẫn riêng tư cho đến khi có thỏa thuận."
+    },
+    "company": {
+      "title": "Công ty — An ninh AI có chủ quyền, kỹ thuật trung thực | Sibernetick",
+      "description": "Sibernetick là công ty kỹ thuật xây dựng an ninh AI có chủ quyền dữ liệu. Bằng chứng, ranh giới triển khai và dán nhãn trung thực là yêu cầu sản phẩm.",
+      "heading": "Một công ty kỹ thuật xây dựng an ninh AI có chủ quyền",
+      "subhead": "Sibernetick được phát triển bởi đội coi bằng chứng, ranh giới triển khai và dán nhãn trung thực là yêu cầu sản phẩm — không phải marketing."
+    },
+    "contact": {
+      "title": "Liên hệ — Demo, thí điểm, nhà đầu tư, đối tác | Sibernetick",
+      "description": "Cho chúng tôi biết bạn đang đánh giá điều gì. Chọn tuyến phù hợp với ý định — demo, thí điểm, nhà đầu tư hoặc đối tác — để đội phù hợp phản hồi.",
+      "heading": "Cho chúng tôi biết bạn đang đánh giá điều gì",
+      "subhead": "Các trường biểu mẫu được định nghĩa trong ứng dụng; trang này cung cấp phần mở đầu. Chọn tuyến phù hợp để đội phù hợp phản hồi."
+    },
+    "privacy": {
+      "title": "Chính sách bảo mật | Sibernetick",
+      "description": "Cách sibernetick.com xử lý dữ liệu cá nhân khi bạn duyệt trang hoặc liên hệ với chúng tôi: thu thập, mục đích, chia sẻ, lưu giữ và quyền của bạn.",
+      "heading": "Chính sách bảo mật",
+      "subhead": "Cách sibernetick.com xử lý dữ liệu cá nhân khi bạn duyệt trang hoặc liên hệ với chúng tôi."
+    },
+    "terms": {
+      "title": "Điều khoản sử dụng | Sibernetick",
+      "description": "Các quy tắc sử dụng sibernetick.com và nội dung công bố trên đó, gồm nhãn bằng chứng, sử dụng chấp nhận được và tuyên bố miễn trừ.",
+      "heading": "Điều khoản sử dụng",
+      "subhead": "Các quy tắc sử dụng sibernetick.com và nội dung công bố trên đó."
+    },
+    "cookies": {
+      "title": "Chính sách cookie | Sibernetick",
+      "description": "Trang này lưu gì trên thiết bị của bạn và tại sao: mặc định chỉ cookie thiết yếu, không cookie quảng cáo, không theo dõi liên trang, không bán dữ liệu.",
+      "heading": "Chính sách cookie",
+      "subhead": "Trang này lưu gì trên thiết bị của bạn và tại sao."
+    },
+    "security": {
+      "title": "Bảo mật & sử dụng có trách nhiệm | Sibernetick",
+      "description": "Cách chúng tôi bảo vệ trang này, cách báo cáo lỗ hổng và ranh giới sử dụng có trách nhiệm cho mọi thứ chúng tôi công bố.",
+      "heading": "Bảo mật & sử dụng có trách nhiệm",
+      "subhead": "Cách chúng tôi bảo vệ trang này, cách báo cáo lỗ hổng và ranh giới sử dụng có trách nhiệm cho mọi thứ chúng tôi công bố."
+    },
+    "licenses": {
+      "title": "Giấy phép — Thành phần mở và độc quyền | Sibernetick",
+      "description": "Cái gì mở, dưới giấy phép nào (MIT HOẶC Apache-2.0), và cái gì vẫn độc quyền theo thỏa thuận thương mại.",
+      "heading": "Giấy phép",
+      "subhead": "Cái gì mở, dưới giấy phép nào, và cái gì vẫn độc quyền."
+    }
+  },
+  "footer": {
+    "description": "An ninh mạng doanh nghiệp có chủ quyền dữ liệu và gốc AI cho ngân hàng, năng lượng, viễn thông và khu vực công.",
+    "product": "Sản phẩm",
+    "company": "Công ty",
+    "legal": "Pháp lý",
+    "community": "Cộng đồng / GitHub",
+    "links": {
+      "platform": "Nền tảng",
+      "metrics": "Sổ đăng ký chỉ số",
+      "opensource": "Mã nguồn mở",
+      "demo": "Yêu cầu demo",
+      "about": "Về chúng tôi",
+      "contact": "Liên hệ",
+      "press": "Báo chí & nhà đầu tư",
+      "privacy": "Chính sách bảo mật",
+      "terms": "Điều khoản sử dụng",
+      "cookies": "Chính sách cookie",
+      "security": "Bảo mật",
+      "licenses": "Giấy phép",
+      "repository": "Kho lưu trữ",
+      "issues": "Issues",
+      "releases": "Bản phát hành",
+      "communityPage": "Trang cộng đồng"
+    },
+    "legalLine": "© {year} Sibernetick. Bảo lưu mọi quyền. Nhãn «kiểm chứng trong phòng thí nghiệm» chỉ bằng chứng nguyên mẫu trong môi trường phòng thí nghiệm (nguồn: product i18n/observatory, 2026-06).",
+    "tagline": "Star kho lưu trữ nếu hữu ích. Theo dõi các bản phát hành.",
+    "licenseBadge": "MIT OR Apache-2.0",
+    "built": "Landing mở · cấp phép kép"
+  },
+  "form": {
+    "kicker": "Liên hệ",
+    "heading": "Yêu cầu demo, cùng lên kế hoạch thí điểm.",
+    "lede": "Dịch vụ doanh nghiệp, thí điểm kỹ thuật, đối tác hoặc trao đổi với nhà investor — cho chúng tôi biết bối cảnh, chúng tôi sẽ điều hướng. Phản hồi trong hai ngày làm việc.",
+    "bullets": [
+      "Truy cập demo kín và báo cáo mẫu",
+      "Đánh giá kiến trúc triển khai có chủ quyền",
+      "Briefing nhà đầu tư và lộ trình",
+      "Xử lý dữ liệu tuân thủ GDPR / KVKK"
+    ],
+    "direct": "Trực tiếp:",
+    "routingNote": "Tin nhắn được định tuyến qua tên miền.",
+    "name": "Họ và tên",
+    "namePh": "Tên của bạn",
+    "email": "Email",
+    "emailPh": "you@company.com",
+    "companyLabel": "Tổ chức",
+    "companyPh": "Tên tổ chức",
+    "phone": "Điện thoại",
+    "phonePh": "+84 …",
+    "interest": "Loại yêu cầu",
+    "select": "Chọn…",
+    "optDemo": "Demo / trình bày kín",
+    "optPilot": "Thí điểm kỹ thuật",
+    "optEnterprise": "Yêu cầu dịch vụ doanh nghiệp",
+    "optInvestor": "Họp nhà đầu tư",
+    "optPartner": "Đối tác / hợp tác",
+    "optOther": "Khác",
+    "message": "Tin nhắn",
+    "messagePh": "Mô tả ngắn gọn nhu cầu hoặc câu hỏi của bạn…",
+    "note": "Dữ liệu biểu mẫu chỉ được xử lý để phản hồi yêu cầu của bạn. Lưu giữ tuân thủ GDPR / KVKK; không bao giờ chia sẻ với bên thứ ba cho mục đích tiếp thị.",
+    "required": "Vui lòng điền các trường bắt buộc.",
+    "invalidEmail": "Vui lòng nhập địa chỉ email hợp lệ.",
+    "success": "Cảm ơn! Chúng tôi đã nhận yêu cầu — sẽ phản hồi sớm.",
+    "error": "Đã xảy ra lỗi. Vui lòng thử lại.",
+    "submit": "Gửi"
+  },
+  "cta": {
+    "star": "Star",
+    "watch": "Watch",
+    "fork": "Fork",
+    "starLong": "Star kho lưu trữ",
+    "watchLong": "Theo dõi bản phát hành",
+    "forkLong": "Fork và tùy chỉnh",
+    "issue": "Mở issue",
+    "pr": "Gửi nhánh",
+    "viewGithub": "Xem trên GitHub",
+    "getDemo": "Yêu cầu demo",
+    "readMetrics": "Đọc sổ đăng ký chỉ số",
+    "contact": "Liên hệ",
+    "licenses": "Giấy phép",
+    "talkCommercial": "Thảo luận thỏa thuận thương mại",
+    "bandTitle": "Đánh giá trên môi trường của bạn",
+    "bandBody": "Đặt demo cho đội an ninh và kiến trúc của bạn, hoặc đọc trước kho lưu trữ landing — cả hai cánh cửa đều mở."
+  },
+  "common": {
+    "methodology": "Phương pháp",
+    "source": "Nguồn",
+    "date": "Ngày",
+    "status": "Trạng thái",
+    "notes": "Ghi chú",
+    "label": "Nhãn",
+    "value": "Giá trị",
+    "related": "Liên quan",
+    "effective": "Có hiệu lực từ",
+    "lastUpdated": "Cập nhật lần cuối",
+    "labValidated": "kiểm chứng trong phòng thí nghiệm",
+    "roadmap": "lộ trình",
+    "prototype": "nguyên mẫu",
+    "open": "Mở",
+    "private": "Riêng tư",
+    "essential": "Thiết yếu",
+    "optional": "Tùy chọn",
+    "backHome": "Về trang chủ",
+    "pageNotFound": "Không tìm thấy trang",
+    "pageNotFoundBody": "Trang bạn tìm không tồn tại hoặc đã di chuyển.",
+    "skip": "Bỏ qua đến nội dung chính",
+    "allLocales": "Tất cả ngôn ngữ"
+  }
+}

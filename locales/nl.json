@@ -1,0 +1,221 @@
+{
+  "code": "nl",
+  "name": "Nederlands",
+  "dir": "ltr",
+  "ogLocale": "nl_NL",
+  "site": {
+    "tagline": "Data-soevereine, AI-native enterprise cybersecurity",
+    "description": "Sibernetick is een data-soevereine, AI-native enterprise cybersecurity-platform: beveiligingsagents die binnen uw perimeter opereren, met door mensen goedgekeurde remediatie en in het lab gevalideerde evidence."
+  },
+  "nav": {
+    "home": "Home",
+    "platform": "Platform",
+    "metrics": "Metrics",
+    "community": "Community",
+    "opensource": "Open source",
+    "company": "Bedrijf",
+    "contact": "Contact",
+    "github": "GitHub",
+    "demo": "Demo aanvragen",
+    "menu": "Menu",
+    "close": "Sluiten",
+    "language": "Taal",
+    "skip": "Ga naar inhoud"
+  },
+  "hero": {
+    "badge": "Data-soeverein · AI-native",
+    "eyebrow": "Data-soevereine, AI-native enterprise cybersecurity",
+    "title": "Beveiligingsagents die binnen uw perimeter opereren.",
+    "subtitle": "Sibernetick coördineert een team van AI-agents in uw omgeving, verifieert wat ze vinden en stelt remediatie voor die uw team goedkeurt voordat er iets verandert. Gedeployeerd in uw infrastructuur. Lab-evidence, als zodanig benoemd.",
+    "primaryCta": "Demo aanvragen",
+    "secondaryCta": "Bekijk op GitHub",
+    "trust": [
+      "Soevereine / on-prem deploy",
+      "Remediatie goedgekeurd door mensen",
+      "Least privilege by design",
+      "Enterprise-ready"
+    ]
+  },
+  "pages": {
+    "index": {
+      "title": "Sibernetick — Data-soevereine enterprise cybersecurity",
+      "description": "AI-beveiligingsagents die binnen uw perimeter opereren. Soevereine deploy, remediatie goedgekeurd door mensen, in het lab gevalideerde evidence. Vraag een demo of pilot aan.",
+      "heading": "Beveiligingsagents die binnen uw perimeter opereren.",
+      "subhead": "Sibernetick coördineert een team van AI-agents in uw omgeving, verifieert wat ze vinden en stelt remediatie voor die uw team goedkeurt voordat er iets verandert."
+    },
+    "platform": {
+      "title": "Platform — Architectuur voor gecontroleerde autonomie | Sibernetick",
+      "description": "Een coördinatielaag, zes gespecialiseerde agents, lokale intelligentie en een goedkeuringspoort tussen voorstel en wijziging. Elke capability is gelabeld lab-gevalideerd prototype of roadmap.",
+      "heading": "Architectuur gebouwd voor gecontroleerde autonomie",
+      "subhead": "Een coördinatielaag, zes gespecialiseerde agents, lokale intelligentie en een goedkeuringspoort tussen voorstel en wijziging. Elke capability hieronder is gelabeld: lab-gevalideerd prototype, of roadmap."
+    },
+    "metrics": {
+      "title": "Metricsregister — Elk getal met zijn evidence | Sibernetick",
+      "description": "Elk gepubliceerd getal draagt methodiek, bron, datum en status. Lab-gevalideerde prototype-evidence uit de product i18n/observatory, 2026-06.",
+      "heading": "Elk getal, met zijn evidence",
+      "subhead": "Methodiek, bron, datum en status zijn verplicht. Hier wordt niets zonder gepubliceerd."
+    },
+    "community": {
+      "title": "Community — In het open gebouwd, in het open beoordeeld | Sibernetick",
+      "description": "De landingspagina is publiek. Star, watch, fork, open een issue of push een branch — bijdragen aan content, locale, toegankelijkheid en documentatie worden als code beoordeeld.",
+      "heading": "In het open gebouwd, in het open beoordeeld",
+      "subhead": "De landingspagina is publiek. Bijdragen aan content, locale, toegankelijkheid en documentatie zijn welkom en worden als code beoordeeld."
+    },
+    "open-source": {
+      "title": "Open source — Open landing, privaat product | Sibernetick",
+      "description": "De landingsrepo is dual-licensed MIT OF Apache-2.0. Het beveiligingsproduct zelf is commercieel en blijft privaat tot er een overeenkomst is.",
+      "heading": "Open landing, privaat product",
+      "subhead": "De code van deze site is dual-licensed. Het beveiligingsproduct zelf is commercieel en blijft privaat tot er een overeenkomst is."
+    },
+    "company": {
+      "title": "Bedrijf — Soevereine AI-security, eerlijk geëngineerd | Sibernetick",
+      "description": "Sibernetick is een engineeringbedrijf dat data-soevereine AI-security bouwt. Evidence, deploygrenzen en eerlijke labeling zijn producteisen.",
+      "heading": "Een engineeringbedrijf voor soevereine AI-security",
+      "subhead": "Sibernetick wordt ontwikkeld door een team dat evidence, deploygrenzen en eerlijke labeling als producteisen behandelt — niet als marketing."
+    },
+    "contact": {
+      "title": "Contact — Demo, pilot, investeerder, partnerschap | Sibernetick",
+      "description": "Vertel ons wat u evalueert. Kies het spoor dat bij uw intentie past — demo, pilot, investeerder of partnerschap — zodat het juiste team antwoordt.",
+      "heading": "Vertel ons wat u evalueert",
+      "subhead": "Formuliervelden zijn gedefinieerd in de applicatie; deze pagina leidt in. Kies het juiste spoor zodat het juiste team antwoordt."
+    },
+    "privacy": {
+      "title": "Privacybeleid | Sibernetick",
+      "description": "Hoe sibernetick.com omgaat met persoonsgegevens wanneer u de site bezoekt of contact opneemt: verzameling, doeleinden, deling, bewaartermijn en uw rechten.",
+      "heading": "Privacybeleid",
+      "subhead": "Hoe sibernetick.com omgaat met persoonsgegevens wanneer u de site bezoekt of contact opneemt."
+    },
+    "terms": {
+      "title": "Gebruiksvoorwaarden | Sibernetick",
+      "description": "De regels voor het gebruik van sibernetick.com en de daar gepubliceerde inhoud, inclusief evidence-labels, geoorloofd gebruik en disclaimers.",
+      "heading": "Gebruiksvoorwaarden",
+      "subhead": "De regels voor het gebruik van sibernetick.com en de daar gepubliceerde inhoud."
+    },
+    "cookies": {
+      "title": "Cookiebeleid | Sibernetick",
+      "description": "Wat deze site op uw apparaat opslaat en waarom: standaard alleen essentiële cookies, geen advertentiecookies, geen cross-site tracking, geen dataverkoop.",
+      "heading": "Cookiebeleid",
+      "subhead": "Wat deze site op uw apparaat opslaat en waarom."
+    },
+    "security": {
+      "title": "Security & verantwoord gebruik | Sibernetick",
+      "description": "Hoe we deze site beveiligen, hoe u een kwetsbaarheid meldt, en de grens van verantwoord gebruik voor alles wat we publiceren.",
+      "heading": "Security & verantwoord gebruik",
+      "subhead": "Hoe we deze site beveiligen, hoe u een kwetsbaarheid meldt, en de grens van verantwoord gebruik voor alles wat we publiceren."
+    },
+    "licenses": {
+      "title": "Licenties — Open en proprietaire componenten | Sibernetick",
+      "description": "Wat open is, onder welke licentie (MIT OF Apache-2.0), en wat proprietair blijft onder een commerciële overeenkomst.",
+      "heading": "Licenties",
+      "subhead": "Wat open is, onder welke licentie, en wat proprietair blijft."
+    }
+  },
+  "footer": {
+    "description": "Data-soevereine, AI-native enterprise cybersecurity voor banken, energie, telecom en de publieke sector.",
+    "product": "Product",
+    "company": "Bedrijf",
+    "legal": "Juridisch",
+    "community": "Community / GitHub",
+    "links": {
+      "platform": "Platform",
+      "metrics": "Metricsregister",
+      "opensource": "Open source",
+      "demo": "Demo aanvragen",
+      "about": "Over ons",
+      "contact": "Contact",
+      "press": "Pers & investeerders",
+      "privacy": "Privacybeleid",
+      "terms": "Gebruiksvoorwaarden",
+      "cookies": "Cookiebeleid",
+      "security": "Security",
+      "licenses": "Licenties",
+      "repository": "Repository",
+      "issues": "Issues",
+      "releases": "Releases",
+      "communityPage": "Communitypagina"
+    },
+    "legalLine": "© {year} Sibernetick. Alle rechten voorbehouden. Labels «lab-gevalideerd» verwijzen naar prototype-evidence in een labomgeving (bron: product i18n/observatory, 2026-06).",
+    "tagline": "Star de repo als het helpt. Volg releases.",
+    "licenseBadge": "MIT OR Apache-2.0",
+    "built": "Open landing · dual-licensed"
+  },
+  "form": {
+    "kicker": "Contact",
+    "heading": "Vraag een demo aan, plan de pilot samen.",
+    "lede": "Enterprise-dienst, technische pilot, partnerschap of investeerdersgesprek — geef de context, wij routen. We antwoorden binnen twee werkdagen.",
+    "bullets": [
+      "Toegang tot besloten demo en voorbeeldrapport",
+      "Beoordeling van soevereine deployarchitectuur",
+      "Investeerdersbriefing en roadmap",
+      "GDPR / KVKK-conforme gegevensverwerking"
+    ],
+    "direct": "Direct:",
+    "routingNote": "Berichten worden via het domein gerouteerd.",
+    "name": "Volledige naam",
+    "namePh": "Uw naam",
+    "email": "E-mail",
+    "emailPh": "u@bedrijf.nl",
+    "companyLabel": "Organisatie",
+    "companyPh": "Naam organisatie",
+    "phone": "Telefoon",
+    "phonePh": "+31 …",
+    "interest": "Type aanvraag",
+    "select": "Selecteer…",
+    "optDemo": "Demo / besloten briefing",
+    "optPilot": "Technische pilot",
+    "optEnterprise": "Enterprise-aanvraag",
+    "optInvestor": "Investeerdersgesprek",
+    "optPartner": "Partnerschap / samenwerking",
+    "optOther": "Overig",
+    "message": "Bericht",
+    "messagePh": "Beschrijf kort uw vraag of behoefte…",
+    "note": "Formuliergegevens worden alleen verwerkt om op uw aanvraag te reageren. GDPR / KVKK-conforme bewaring; nooit gedeeld met derden voor marketing.",
+    "required": "Vul de verplichte velden in.",
+    "invalidEmail": "Voer een geldig e-mailadres in.",
+    "success": "Bedankt! Uw aanvraag is ontvangen — we nemen spoedig contact op.",
+    "error": "Er is iets misgegaan. Probeer het opnieuw.",
+    "submit": "Verzenden"
+  },
+  "cta": {
+    "star": "Star",
+    "watch": "Watch",
+    "fork": "Fork",
+    "starLong": "Star de repo",
+    "watchLong": "Volg releases",
+    "forkLong": "Fork en pas aan",
+    "issue": "Open een issue",
+    "pr": "Push een branch",
+    "viewGithub": "Bekijk op GitHub",
+    "getDemo": "Demo aanvragen",
+    "readMetrics": "Lees het metricsregister",
+    "contact": "Contact",
+    "licenses": "Licenties",
+    "talkCommercial": "Bespreek een commerciële overeenkomst",
+    "bandTitle": "Evalueer het tegen uw omgeving",
+    "bandBody": "Plan een demo voor uw security- en architectuurteam, of lees eerst de landingsrepo — beide deuren staan open."
+  },
+  "common": {
+    "methodology": "Methodiek",
+    "source": "Bron",
+    "date": "Datum",
+    "status": "Status",
+    "notes": "Notities",
+    "label": "Label",
+    "value": "Waarde",
+    "related": "Verwant",
+    "effective": "Geldig vanaf",
+    "lastUpdated": "Laatst bijgewerkt",
+    "labValidated": "lab-gevalideerd",
+    "roadmap": "roadmap",
+    "prototype": "prototype",
+    "open": "Open",
+    "private": "Privaat",
+    "essential": "Essentieel",
+    "optional": "Optioneel",
+    "backHome": "Terug naar home",
+    "pageNotFound": "Pagina niet gevonden",
+    "pageNotFoundBody": "De pagina die u zoekt bestaat niet of is verplaatst.",
+    "skip": "Ga naar hoofdinhoud",
+    "allLocales": "Alle talen"
+  }
+}

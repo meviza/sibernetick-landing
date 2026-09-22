@@ -1,0 +1,221 @@
+{
+  "code": "zh",
+  "name": "中文",
+  "dir": "ltr",
+  "ogLocale": "zh_CN",
+  "site": {
+    "tagline": "数据主权、AI 原生的企业级网络安全",
+    "description": "Sibernetick 是一个数据主权、AI 原生的企业级网络安全平台：安全智能体在您的边界内运行，修复方案须经人工批准，证据均经实验室验证。"
+  },
+  "nav": {
+    "home": "首页",
+    "platform": "平台",
+    "metrics": "指标",
+    "community": "社区",
+    "opensource": "开源",
+    "company": "公司",
+    "contact": "联系",
+    "github": "GitHub",
+    "demo": "预约演示",
+    "menu": "菜单",
+    "close": "关闭",
+    "language": "语言",
+    "skip": "跳到正文"
+  },
+  "hero": {
+    "badge": "数据主权 · AI 原生",
+    "eyebrow": "数据主权、AI 原生的企业级网络安全",
+    "title": "在您的边界内运行的安全智能体。",
+    "subtitle": "Sibernetick 在您的环境中协调一支 AI 智能体团队，验证它们的发现，并在任何变更发生前提出由您的团队批准的修复方案。部署在您的基础设施中。实验室证据，如实标注。",
+    "primaryCta": "预约演示",
+    "secondaryCta": "在 GitHub 查看",
+    "trust": [
+      "主权 / 本地部署",
+      "人工批准的修复",
+      "默认最小权限",
+      "企业级就绪"
+    ]
+  },
+  "pages": {
+    "index": {
+      "title": "Sibernetick — 数据主权的企业级网络安全",
+      "description": "在您的边界内运行的 AI 安全智能体。主权部署、人工批准的修复、经实验室验证的证据。预约演示或试点。",
+      "heading": "在您的边界内运行的安全智能体。",
+      "subhead": "Sibernetick 在您的环境中协调一支 AI 智能体团队，验证它们的发现，并在任何变更发生前提出由您的团队批准的修复方案。"
+    },
+    "platform": {
+      "title": "平台 — 面向受控自主的架构 | Sibernetick",
+      "description": "一个协调层、六个专职智能体、本地智能,以及介于建议与变更之间的人工审批门。每项能力均标注为实验室验证的原型或路线图。",
+      "heading": "为受控自主而构建的架构",
+      "subhead": "一个协调层、六个专职智能体、本地智能,以及介于建议与变更之间的人工审批门。下方每项能力均已标注:实验室验证的原型,或路线图。"
+    },
+    "metrics": {
+      "title": "指标登记册 — 每个数字都附带证据 | Sibernetick",
+      "description": "每个发布的数字都带有方法、来源、日期和状态。实验室验证的原型证据,来源:product i18n/observatory,2026-06。",
+      "heading": "每个数字,都附带证据",
+      "subhead": "方法、来源、日期和状态为必填项。没有任何内容会在缺失这些信息的情况下发布。"
+    },
+    "community": {
+      "title": "社区 — 公开构建,公开评审 | Sibernetick",
+      "description": "落地站点完全公开。Star、Watch、Fork、提 Issue 或提交分支 — 内容、语言、可访问性与文档贡献均按代码标准评审。",
+      "heading": "公开构建,公开评审",
+      "subhead": "落地站点完全公开。欢迎对内容、语言、可访问性和文档的贡献,并按代码标准进行评审。"
+    },
+    "open-source": {
+      "title": "开源 — 开放的落地页,私有的产品 | Sibernetick",
+      "description": "落地仓库采用 MIT 或 Apache-2.0 双重许可。安全产品本身为商业性质,在签署协议前保持私有。",
+      "heading": "开放的落地页,私有的产品",
+      "subhead": "驱动本站点的代码采用双重许可。安全产品本身为商业性质,在签署协议前保持私有。"
+    },
+    "company": {
+      "title": "公司 — 主权 AI 安全,以诚实工程打造 | Sibernetick",
+      "description": "Sibernetick 是一家构建数据主权 AI 安全的工程公司。证据、部署边界与诚实标注是产品要求,而非营销话术。",
+      "heading": "构建主权 AI 安全的工程公司",
+      "subhead": "Sibernetick 由一支把证据、部署边界与诚实标注视为产品要求 — 而非营销 — 的团队开发。"
+    },
+    "contact": {
+      "title": "联系 — 演示、试点、投资、合作 | Sibernetick",
+      "description": "告诉我们您在评估什么。选择符合您意图的通道 — 演示、试点、投资或合作 — 以便正确的团队回复。",
+      "heading": "告诉我们您在评估什么",
+      "subhead": "表单字段已在应用中定义;本页面提供其前言。请选择符合意图的通道,以便正确的团队回复。"
+    },
+    "privacy": {
+      "title": "隐私政策 | Sibernetick",
+      "description": "sibernetick.com 在您浏览本站或联系我们时如何处理个人数据:收集、用途、共享、保留及您的权利。",
+      "heading": "隐私政策",
+      "subhead": "sibernetick.com 在您浏览本站或联系我们时如何处理个人数据。"
+    },
+    "terms": {
+      "title": "使用条款 | Sibernetick",
+      "description": "使用 sibernetick.com 及其发布内容的规则,包括证据标注、可接受使用与免责声明。",
+      "heading": "使用条款",
+      "subhead": "使用 sibernetick.com 及其发布内容的规则。"
+    },
+    "cookies": {
+      "title": "Cookie 政策 | Sibernetick",
+      "description": "本站在您的设备上存储什么以及原因:默认仅必要 Cookie,无广告 Cookie,无跨站追踪,不出售数据。",
+      "heading": "Cookie 政策",
+      "subhead": "本站在您的设备上存储什么以及原因。"
+    },
+    "security": {
+      "title": "安全与负责任使用 | Sibernetick",
+      "description": "我们如何保护本站、如何报告漏洞,以及我们发布内容的负责任使用边界。",
+      "heading": "安全与负责任使用",
+      "subhead": "我们如何保护本站、如何报告漏洞,以及我们发布内容的负责任使用边界。"
+    },
+    "licenses": {
+      "title": "许可 — 开源与专有组件 | Sibernetick",
+      "description": "哪些是开源的、依据何种许可(MIT 或 Apache-2.0),以及哪些在商业协议下保持专有。",
+      "heading": "许可",
+      "subhead": "哪些是开源的、依据何种许可,以及哪些保持专有。"
+    }
+  },
+  "footer": {
+    "description": "面向银行、能源、电信与公共部门的数据主权、AI 原生企业级网络安全。",
+    "product": "产品",
+    "company": "公司",
+    "legal": "法律",
+    "community": "社区 / GitHub",
+    "links": {
+      "platform": "平台",
+      "metrics": "指标登记册",
+      "opensource": "开源",
+      "demo": "预约演示",
+      "about": "关于我们",
+      "contact": "联系",
+      "press": "媒体与投资者",
+      "privacy": "隐私政策",
+      "terms": "使用条款",
+      "cookies": "Cookie 政策",
+      "security": "安全",
+      "licenses": "许可",
+      "repository": "仓库",
+      "issues": "Issues",
+      "releases": "发布",
+      "communityPage": "社区页面"
+    },
+    "legalLine": "© {year} Sibernetick。保留所有权利。“实验室验证”标签指实验室环境中的原型证据(来源:product i18n/observatory,2026-06)。",
+    "tagline": "如果它对您有帮助,请为仓库点 Star。关注发布动态。",
+    "licenseBadge": "MIT OR Apache-2.0",
+    "built": "开放落地页 · 双重许可"
+  },
+  "form": {
+    "kicker": "联系",
+    "heading": "预约演示,共同规划试点。",
+    "lede": "企业服务、技术试点、合作伙伴或投资洽谈 — 说明背景,我们负责转达。两个工作日内回复。",
+    "bullets": [
+      "封闭演示与样例报告访问",
+      "主权部署架构评估",
+      "投资者简报与路线图",
+      "符合 GDPR / KVKK 的数据处理"
+    ],
+    "direct": "直接联系:",
+    "routingNote": "邮件通过域名路由。",
+    "name": "姓名",
+    "namePh": "您的姓名",
+    "email": "电子邮箱",
+    "emailPh": "you@company.com",
+    "companyLabel": "机构 / 公司",
+    "companyPh": "机构名称",
+    "phone": "电话",
+    "phonePh": "+86 …",
+    "interest": "请求类型",
+    "select": "请选择…",
+    "optDemo": "演示 / 封闭汇报",
+    "optPilot": "技术试点",
+    "optEnterprise": "企业服务请求",
+    "optInvestor": "投资者会议",
+    "optPartner": "合作 / 协作",
+    "optOther": "其他",
+    "message": "留言",
+    "messagePh": "简要描述您的需求或问题…",
+    "note": "表单数据仅用于回复您的请求。符合 GDPR / KVKK 的保留策略;绝不会用于向第三方营销共享。",
+    "required": "请填写必填字段。",
+    "invalidEmail": "请输入有效的电子邮箱地址。",
+    "success": "谢谢!我们已收到您的请求 — 将尽快回复。",
+    "error": "出现错误,请重试。",
+    "submit": "发送"
+  },
+  "cta": {
+    "star": "Star",
+    "watch": "Watch",
+    "fork": "Fork",
+    "starLong": "为仓库点 Star",
+    "watchLong": "关注发布",
+    "forkLong": "Fork 并改造",
+    "issue": "提交 Issue",
+    "pr": "提交分支",
+    "viewGithub": "在 GitHub 查看",
+    "getDemo": "预约演示",
+    "readMetrics": "阅读指标登记册",
+    "contact": "联系",
+    "licenses": "许可",
+    "talkCommercial": "洽谈商业协议",
+    "bandTitle": "在您的环境中评估",
+    "bandBody": "为您的安全与架构团队预约演示,或先阅读落地仓库 — 两扇门都敞开。"
+  },
+  "common": {
+    "methodology": "方法",
+    "source": "来源",
+    "date": "日期",
+    "status": "状态",
+    "notes": "备注",
+    "label": "标签",
+    "value": "数值",
+    "related": "相关",
+    "effective": "生效日期",
+    "lastUpdated": "最后更新",
+    "labValidated": "实验室验证",
+    "roadmap": "路线图",
+    "prototype": "原型",
+    "open": "开放",
+    "private": "私有",
+    "essential": "必要",
+    "optional": "可选",
+    "backHome": "返回首页",
+    "pageNotFound": "页面未找到",
+    "pageNotFoundBody": "您访问的页面不存在或已被移动。",
+    "skip": "跳到主内容",
+    "allLocales": "所有语言"
+  }
+}

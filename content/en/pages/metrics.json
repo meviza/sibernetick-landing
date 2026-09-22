@@ -1,0 +1,82 @@
+{
+  "site": "sibernetick",
+  "page": "metrics",
+  "locale": "en",
+  "policyRef": "../METRICS_POLICY.md",
+  "header": {
+    "eyebrow": "Metrics registry",
+    "headline": "Every number, with its evidence attached",
+    "subhead": "Methodology, source, date, and status are mandatory. Nothing here is published without them."
+  },
+  "metrics": [
+    {
+      "id": "telemetry-coverage",
+      "value": "92%",
+      "label": "Telemetry coverage",
+      "methodology": "Share of in-scope telemetry sources ingested and normalised during lab-environment runs of the prototype.",
+      "source": "product i18n/observatory",
+      "date": "2026-06",
+      "status": "lab-validated",
+      "notes": "Lab environment only. Not a production-coverage claim. Status: lab-validated prototype."
+    },
+    {
+      "id": "daily-verified-signals",
+      "value": "1,430",
+      "label": "Daily verified signals",
+      "methodology": "Count of signals promoted to verified status by agent correlation during a 24-hour lab observation window; source dict writes the value as 1.430 (thousands separator).",
+      "source": "product i18n/observatory",
+      "date": "2026-06",
+      "status": "lab-validated",
+      "notes": "Lab environment only. Verification is platform-defined, not a third-party audit."
+    },
+    {
+      "id": "posture-improvement",
+      "value": "+8 points",
+      "label": "Posture improvement",
+      "methodology": "Difference between baseline and post-remediation posture scores measured in the lab scenario after human-approved changes were applied.",
+      "source": "product i18n/observatory",
+      "date": "2026-06",
+      "status": "lab-validated",
+      "notes": "Lab scenario. Directional prototype evidence; customer outcomes depend on environment and scope."
+    },
+    {
+      "id": "mean-validation-time",
+      "value": "4 min",
+      "label": "Mean validation time",
+      "methodology": "Arithmetic mean time from signal receipt to verified status across the lab observation window.",
+      "source": "product i18n/observatory",
+      "date": "2026-06",
+      "status": "lab-validated",
+      "notes": "Lab environment only. Not an SLA."
+    },
+    {
+      "id": "agent-roster",
+      "value": "6",
+      "label": "Specialised agents",
+      "methodology": "Product dict enumeration of shipped agent roles: recon, surface, identity, config, threat, exposure.",
+      "source": "product dict (agent roster)",
+      "date": "2026-06",
+      "status": "prototype",
+      "notes": "Roster exists in the prototype; per-agent maturity varies and is tracked internally."
+    },
+    {
+      "id": "connector-catalogue",
+      "value": "planned",
+      "label": "Expanded connector catalogue",
+      "methodology": "Declared roadmap item; no measurement attached.",
+      "source": "product roadmap notes",
+      "date": "2026-06",
+      "status": "roadmap",
+      "notes": "Roadmap capability. No delivery date published."
+    }
+  ],
+  "investorNarrative": {
+    "note": "Narrative only. No figures beyond the registry above; anything unmeasured is described qualitatively.",
+    "problem": "Regulated institutions cannot adopt AI-speed security operations without surrendering data residency. Existing tooling forces a choice between analytical depth and sovereignty; Sibernetick is built to refuse that trade-off.",
+    "wedge": "Data-sovereign deployment plus human-approved remediation is the entry point into banks, energy, telecom, and public-sector environments where cloud-only AI security is structurally blocked. Early access with design partners precedes general availability.",
+    "moat": "Sovereign architecture, an agent orchestration layer tuned to regulated environments, and a growing corpus of lab-validated evidence tied to a published metrics policy. Deployment inside the customer's perimeter creates deep operational integration over time.",
+    "license": "Landing site and public components are dual-licensed MIT / Apache-2.0 (see /open-source). The product application, agent runtime, and detection logic remain proprietary and are commercialised under agreement.",
+    "community": "The open landing repository is the public surface: issues, translations, documentation, and design contributions are reviewed in the open. Star the repo if it helps; watch for releases; open an issue or ship a branch — we review."
+  },
+  "disclaimer": "Lab-validated describes prototype evidence produced in a lab environment as of 2026-06. It is not a production guarantee, certification, or benchmark against any third-party product."
+}

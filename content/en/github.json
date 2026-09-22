@@ -1,0 +1,30 @@
+{
+  "site": "sibernetick",
+  "page": "github",
+  "locale": "en",
+  "org": "meviza",
+  "repo": "sibernetick-landing",
+  "url": "https://github.com/meviza/sibernetick-landing",
+  "cloneUrl": "https://github.com/meviza/sibernetick-landing.git",
+  "stars_cta": "Star the repo if it helps.",
+  "watch_cta": "Watch for releases.",
+  "fork_cta": "Fork it under MIT or Apache-2.0 — your choice.",
+  "issues_cta": "Open an issue — content errors and metric inconsistencies are especially welcome.",
+  "prs_cta": "Ship a branch — we review.",
+  "links": {
+    "releases": "https://github.com/meviza/sibernetick-landing/releases",
+    "pulls": "https://github.com/meviza/sibernetick-landing/pulls",
+    "goodFirstIssues": "https://github.com/meviza/sibernetick-landing/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22",
+    "codeOfConduct": "https://github.com/meviza/sibernetick-landing/blob/main/CODE_OF_CONDUCT.md",
+    "license": "https://github.com/meviza/sibernetick-landing/blob/main/LICENSE",
+    "security": "https://github.com/meviza/sibernetick-landing/security"
+  },
+  "placeholderNote": "Counts (stars, watchers, forks, open issues, open PRs) are fetched at runtime or rendered as '—' until first fetch. Never hardcode or invent counts.",
+  "counts": {
+    "stars": null,
+    "watchers": null,
+    "forks": null,
+    "openIssues": null,
+    "openPullRequests": null
+  }
+}
